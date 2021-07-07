@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "e/ZLLayE0dBgThrg+d4zhlb1RmcVaNepltDSxe+CeyrrBpR/djnEhp62nSkjL/geybXghEuv3BKYdcw7nwE43w==",
+  "success": true,
+  "projectFilePath": "F:\\Projects\\OnSale\\OnSale.Commom\\OnSale.Commom.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

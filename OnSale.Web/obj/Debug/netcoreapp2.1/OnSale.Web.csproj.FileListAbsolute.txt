@@ -41,3 +41,6 @@ F:\Projects\OnSale\OnSale.Web\obj\Debug\netcoreapp2.1\Razor\Views\Countries\Deta
 F:\Projects\OnSale\OnSale.Web\obj\Debug\netcoreapp2.1\Razor\Views\Countries\Edit.cshtml.g.cs
 F:\Projects\OnSale\OnSale.Web\obj\Debug\netcoreapp2.1\Razor\Views\Countries\Index.cshtml.g.cs
 F:\Projects\OnSale\OnSale.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_DeleteDialog.cshtml.g.cs
+F:\Projects\OnSale\OnSale.Web\obj\Debug\netcoreapp2.1\Razor\Views\Countries\_Country.cshtml.g.cs
+F:\Projects\OnSale\OnSale.Web\obj\Debug\netcoreapp2.1\Razor\Views\Countries\_Department.cshtml.g.cs
+F:\Projects\OnSale\OnSale.Web\obj\Debug\netcoreapp2.1\Razor\Views\Countries\AddDepartment.cshtml.g.cs

@@ -1,21 +1,23 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel;
+﻿using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text;
 
 namespace OnSale.Commom.Entities
 {
-    public class Country
+    public class City
     {
         public int Id { get; set; }
 
         [MaxLength(50, ErrorMessage = "The filed {0} must contain less than {1} charecteres.")]
         [Required]
         public string Name { get; set; }
-        public ICollection<Department> Departments { get; set; }
 
-        [DisplayName("Departments Number")]
-        public int DepartmentsNumber => Departments == null ? 0 : Departments.Count;
+        [JsonIgnore]
+        [NotMapped]
+        public int IdDepartment { get; set; }
     }
 
 }
-

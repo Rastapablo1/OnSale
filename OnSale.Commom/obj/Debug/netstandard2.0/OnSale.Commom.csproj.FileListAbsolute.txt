@@ -7,3 +7,6 @@ F:\Projects\OnSale\OnSale.Commom\bin\Debug\netstandard2.0\OnSale.Commom.pdb
 F:\Projects\OnSale\OnSale.Commom\obj\Debug\netstandard2.0\OnSale.Commom.csproj.CoreCompileInputs.cache
 F:\Projects\OnSale\OnSale.Commom\obj\Debug\netstandard2.0\OnSale.Commom.dll
 F:\Projects\OnSale\OnSale.Commom\obj\Debug\netstandard2.0\OnSale.Commom.pdb
+F:\Projects\OnSale\OnSale.Commom\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+F:\Projects\OnSale\OnSale.Commom\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
+F:\Projects\OnSale\OnSale.Commom\obj\Debug\netstandard2.0\OnSale.Commom.csproj.CopyComplete

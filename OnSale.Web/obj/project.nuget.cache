@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6lb2e3eBa8Sf999iDUPgsR+aET4NzJ07cOH297f/FUgkMLt0+9BUu+LBHiWCnsNAd66/bdVtM5dJvABX+v/eiA==",
+  "dgSpecHash": "0mgX14ew2bletly2FNOv6QQsVpBrx/Cy9hsEcH0O7sMQGUKdtE83AEkabNBkVYia0VY716JQ/nwkQBZdYwlutg==",
   "success": true,
   "projectFilePath": "F:\\Projects\\OnSale\\OnSale.Web\\OnSale.Web.csproj",
   "expectedPackageFiles": [
@@ -299,7 +299,8 @@
     "C:\\Users\\Rastapablo\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\Rastapablo\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\windowsazure.storage\\9.3.3\\windowsazure.storage.9.3.3.nupkg.sha512"
   ],
   "logs": []
 }

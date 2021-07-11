@@ -68,7 +68,7 @@ using OnSale.Web.Models;
             WriteLiteral("\r\n<link rel=\"stylesheet\" href=\"https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css\" />\r\n<br />\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(216, 99, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2afa1e7701c34d82a1f6c5363ca85e40", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "57a4c10207934974a2d3f91291cf4f9a", async() => {
                 BeginContext(263, 48, true);
                 WriteLiteral("<i class=\"glyphicon glyphicon-plus\"></i> Add New");
                 EndContext();
@@ -154,7 +154,7 @@ WriteAttributeValue("", 1506, item.ImageFullPath, 1506, 19, false);
             WriteLiteral(" style=\"width:100px;height:100px;max-width: 100%; height: auto;\" />\r\n                                </td>\r\n                                <td>\r\n                                    ");
             EndContext();
             BeginContext(1708, 115, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8ebb00b7c2424c7d9000d46c1f8a42fb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "021f10c7182544599b0cbf4048072275", async() => {
                 BeginContext(1777, 42, true);
                 WriteLiteral("<i class=\"glyphicon glyphicon-pencil\"></i>");
                 EndContext();
@@ -208,7 +208,7 @@ WriteAttributeValue("", 1506, item.ImageFullPath, 1506, 19, false);
             WriteLiteral("                    </tbody>\r\n                </table>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n");
             EndContext();
             BeginContext(2237, 32, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ca5bb9fa1c6f4b26a635de7b1411c719", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f5dd393fa2714c90aa4e3e3baa1cfbae", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();

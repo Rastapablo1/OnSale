@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2021-07-11T06:30:19.2520151Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-07-11T06:30:24.5115625Z"
+    }
+  },
+  "parameters": {
+    "secrets1.resourceGroupName": {
+      "Type": "resourceGroup",
+      "Value": "OnSale"
+    },
+    "mssql1.subscriptionId": {
+      "Type": "subscription",
+      "Value": "f52dd8de-8b13-4ab3-8368-3a660a0f9fa4"
+    },
+    "mssql1.resourceGroupName": {
+      "Type": "resourceGroup",
+      "Value": "OnSale"
+    },
+    "secrets1.subscriptionId": {
+      "Type": "subscription",
+      "Value": "f52dd8de-8b13-4ab3-8368-3a660a0f9fa4"
+    }
+  }
+}

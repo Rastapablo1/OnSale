@@ -143,8 +143,8 @@ namespace OnSale.Web.Controllers
             }
 
             Country country = await _context.Countries
-                .Include(c => c.Departments)
-                .ThenInclude(d => d.Cities)
+                //.Include(c => c.Departments)
+                //.ThenInclude(d => d.Cities)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (country == null)
             {

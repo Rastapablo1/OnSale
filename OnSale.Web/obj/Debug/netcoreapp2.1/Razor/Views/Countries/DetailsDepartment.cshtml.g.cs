@@ -111,7 +111,7 @@ using OnSale.Web.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(658, 122, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0a03dacd689249b0a523ffa1a66ee33d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a664be10c931403688b62b21b6a4b1e6", async() => {
                 BeginContext(731, 45, true);
                 WriteLiteral("<i class=\"glyphicon glyphicon-plus\"></i> City");
                 EndContext();
@@ -147,7 +147,7 @@ using OnSale.Web.Models;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(786, 88, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0553e5a824e744b981e95a6eda081c1f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ea21bedb7fa24d8ea594bb015d70e870", async() => {
                 BeginContext(866, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -183,7 +183,7 @@ using OnSale.Web.Models;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(880, 96, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "57305d8fe53f4434826a161011ab2428", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2a19ee7e31184737b52d482a5cbea6c2", async() => {
                 BeginContext(960, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();
@@ -263,7 +263,7 @@ using OnSale.Web.Models;
             WriteLiteral("\r\n                                </td>\r\n                                <td>\r\n                                    ");
             EndContext();
             BeginContext(2041, 119, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e16bb085c7034b0e8da0229291bfb8cc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bf0e051e487f4ed580ed3b58ca7a0eec", async() => {
                 BeginContext(2114, 42, true);
                 WriteLiteral("<i class=\"glyphicon glyphicon-pencil\"></i>");
                 EndContext();
@@ -317,7 +317,7 @@ using OnSale.Web.Models;
             WriteLiteral("                    </tbody>\r\n                </table>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n");
             EndContext();
             BeginContext(2574, 32, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9a0851345fcd447599879bddc6f71d47", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "468d6fdf8c234ff887a0e7bc12cdd7cc", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();

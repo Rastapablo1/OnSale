@@ -70,7 +70,7 @@ using OnSale.Web.Models;
             WriteLiteral("\r\n<link rel=\"stylesheet\" href=\"https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css\" />\r\n<br />\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(215, 99, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7583b3365954778901e713213ce13c0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63da0daf3bf549b8adf94852595f76b1", async() => {
                 BeginContext(262, 48, true);
                 WriteLiteral("<i class=\"glyphicon glyphicon-plus\"></i> Add New");
                 EndContext();
@@ -246,7 +246,7 @@ WriteAttributeValue("", 2215, item.ImageFullPath, 2215, 19, false);
             WriteLiteral("\r\n                                </td>\r\n                                <td>\r\n                                    ");
             EndContext();
             BeginContext(3226, 115, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20fcfd2923884e7cb42a67001cc22869", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "692779c9ce784a849842295c1e237894", async() => {
                 BeginContext(3295, 42, true);
                 WriteLiteral("<i class=\"glyphicon glyphicon-pencil\"></i>");
                 EndContext();
@@ -282,7 +282,7 @@ WriteAttributeValue("", 2215, item.ImageFullPath, 2215, 19, false);
             WriteLiteral("\r\n                                    ");
             EndContext();
             BeginContext(3379, 122, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8e5bac214ee0490c91e1897ca1ae7f80", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0e38b76ecc8f4048aa1206e8b058b466", async() => {
                 BeginContext(3448, 49, true);
                 WriteLiteral("<i class=\"glyphicon glyphicon-align-justify\"></i>");
                 EndContext();
@@ -336,7 +336,7 @@ WriteAttributeValue("", 2215, item.ImageFullPath, 2215, 19, false);
             WriteLiteral("                    </tbody>\r\n                </table>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n");
             EndContext();
             BeginContext(3915, 32, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8eb2b7db28904246b62e11977aa6b95b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "3bd44f4f6bec489fae906b1b5dd392ac", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();

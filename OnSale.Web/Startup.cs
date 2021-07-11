@@ -30,6 +30,11 @@ namespace OnSale.Web
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/Account/NotAuthorized";
+                options.AccessDeniedPath = "/Account/NotAuthorized";
+            });
             services.AddIdentity<User, IdentityRole>(cfg =>
             {
                 cfg.User.RequireUniqueEmail = true;
@@ -39,6 +44,7 @@ namespace OnSale.Web
                 cfg.Password.RequireNonAlphanumeric = false;
                 cfg.Password.RequireUppercase = false;
             }).AddEntityFrameworkStores<DataContext>();
+
             services.AddDbContext<DataContext>(cfg =>
             {
                 cfg.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
@@ -55,12 +61,14 @@ namespace OnSale.Web
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Tokens:Key"]))
                     };
                 });
+
             services.AddTransient<SeedDb>();
             services.AddScoped<IBlobHelper, BlobHelper>();
             services.AddScoped<IConverterHelper, ConverterHelper>();
             services.AddScoped<ICombosHelper, CombosHelper>();
             services.AddScoped<IUserHelper, UserHelper>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
 
         }
 
@@ -76,6 +84,7 @@ namespace OnSale.Web
                 app.UseHsts();
             }
 
+            app.UseStatusCodePagesWithReExecute("/error/{0}");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseAuthentication();

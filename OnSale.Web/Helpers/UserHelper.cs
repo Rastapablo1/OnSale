@@ -67,7 +67,7 @@ namespace OnSale.Web.Helpers
                 false);
         }
 
-            public async Task LogoutAsync()
+        public async Task LogoutAsync()
         {
             await _signInManager.SignOutAsync();
         }

@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using OnSale.Web.Data.Entities;
 using OnSale.Web.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace OnSale.Web.Helpers
@@ -25,5 +22,6 @@ namespace OnSale.Web.Helpers
         Task LogoutAsync();
 
         Task<SignInResult> ValidatePasswordAsync(User user, string password);
+
     }
 }

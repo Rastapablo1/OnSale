@@ -68,3 +68,5 @@ F:\Projects\OnSale\OnSale.Web\obj\Debug\netcoreapp2.1\OnSale.Web.pdb
 F:\Projects\OnSale\OnSale.Web\obj\Debug\netcoreapp2.1\OnSale.Web.genruntimeconfig.cache
 F:\Projects\OnSale\OnSale.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\NotAuthorized.cshtml.g.cs
 F:\Projects\OnSale\OnSale.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Error404.cshtml.g.cs
+F:\Projects\OnSale\OnSale.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\_User.cshtml.g.cs
+F:\Projects\OnSale\OnSale.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs

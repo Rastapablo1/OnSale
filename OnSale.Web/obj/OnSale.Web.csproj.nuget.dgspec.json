@@ -109,6 +109,10 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
             "Microsoft.AspNetCore": {
               "target": "Package",
               "version": "[2.1.7, )"

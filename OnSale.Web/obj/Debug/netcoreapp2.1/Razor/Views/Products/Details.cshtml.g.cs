@@ -200,7 +200,7 @@ using OnSale.Web.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(1496, 124, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7010ddf2df184cff9471dc4e14e4f093", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ff428c94abcd49ce98ffaa83978bec0b", async() => {
                 BeginContext(1570, 46, true);
                 WriteLiteral("<i class=\"glyphicon glyphicon-plus\"></i> Image");
                 EndContext();
@@ -236,7 +236,7 @@ using OnSale.Web.Models;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(1626, 78, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7bf351645023421687f72c1e2786f832", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "62e1e5caa3554f0f8d5428ddd92f7a68", async() => {
                 BeginContext(1696, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -272,7 +272,7 @@ using OnSale.Web.Models;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(1710, 62, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "817a5f229ad14b298cf58766f9b556ba", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4041a806aa89452eabb59d6d81ba7477", async() => {
                 BeginContext(1756, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();
@@ -357,7 +357,7 @@ WriteAttributeValue("", 2723, item.ImageFullPath, 2723, 19, false);
             WriteLiteral("                    </tbody>\r\n                </table>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n");
             EndContext();
             BeginContext(3301, 32, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "7c9183a62a1844a3b1b9da1886e56789", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d1ad485dbf8c42e79ac454d3d15d8b26", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();

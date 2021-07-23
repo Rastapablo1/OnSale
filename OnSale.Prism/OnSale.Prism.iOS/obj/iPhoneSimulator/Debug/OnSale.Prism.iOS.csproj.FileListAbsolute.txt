@@ -1,0 +1,8 @@
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.iOS\obj\iPhoneSimulator\Debug\optimized\
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.iOS\obj\iPhoneSimulator\Debug\OnSale.Prism.iOS.csproj.AssemblyReference.cache
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.iOS\obj\iPhoneSimulator\Debug\OnSale.Prism.iOS.csproj.CoreCompileInputs.cache

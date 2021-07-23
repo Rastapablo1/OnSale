@@ -43,6 +43,7 @@ namespace OnSale.Web.Helpers
             Guid name = Guid.NewGuid();
             CloudBlobContainer container = _blobClient.GetContainerReference(containerName);
             CloudBlockBlob blockBlob = container.GetBlockBlobReference($"{name}");
+       
             await blockBlob.UploadFromStreamAsync(stream);
             return name;
         }

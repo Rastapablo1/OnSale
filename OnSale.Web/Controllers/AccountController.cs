@@ -89,7 +89,8 @@ namespace OnSale.Web.Controllers
                 Cities = _combosHelper.GetComboCities(0),
             };
 
-            return View(model);        }
+            return View(model);
+        }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -324,10 +325,10 @@ namespace OnSale.Web.Controllers
             return View(model);
         }
 
-        public IActionResult ResetPassword(string token)
-        {
-            return View();
-        }
+        //public IActionResult ResetPassword(string token)
+        //{
+        //    return View();
+        //}
 
         [HttpPost]
         public async Task<IActionResult> ResetPassword(ResetPasswordViewModel model)

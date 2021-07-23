@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "dgSpecHash": "o2xNa0hfeH6LU6/hkzfC3K0QF2ytY9iur17OxNssEWP4dneq1/xl1s4cCVAumcF8fZEKDoh9+cJagQJwyqxdSg==",
+  "success": false,
+  "projectFilePath": "F:\\Projects\\OnSale\\OnSale.Prism\\OnSale.Prism.iOS\\OnSale.Prism.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\dryioc.dll\\4.7.7\\dryioc.dll.4.7.7.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\microsoft.windowsazure.configurationmanager\\3.2.3\\microsoft.windowsazure.configurationmanager.3.2.3.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\prism.dryioc.forms\\8.1.97\\prism.dryioc.forms.8.1.97.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\prism.forms\\8.1.97\\prism.forms.8.1.97.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\syncfusion.licensing\\19.2.0.48\\syncfusion.licensing.19.2.0.48.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\syncfusion.xamarin.core\\19.2.0.48\\syncfusion.xamarin.core.19.2.0.48.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\syncfusion.xamarin.sfbusyindicator\\19.2.0.48\\syncfusion.xamarin.sfbusyindicator.19.2.0.48.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\syncfusion.xamarin.sfrotator\\19.2.0.48\\syncfusion.xamarin.sfrotator.19.2.0.48.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\windowsazure.storage\\9.3.3\\windowsazure.storage.9.3.3.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.essentials.interfaces\\1.7.0\\xamarin.essentials.interfaces.1.7.0.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.WindowsAzure.ConfigurationManager 3.2.3 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Package Microsoft.WindowsAzure.ConfigurationManager 3.2.3 supports: net40 (.NETFramework,Version=v4.0)",
+      "libraryId": "Microsoft.WindowsAzure.ConfigurationManager",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.WindowsAzure.ConfigurationManager 3.2.3 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Package Microsoft.WindowsAzure.ConfigurationManager 3.2.3 supports: net40 (.NETFramework,Version=v4.0)",
+      "libraryId": "Microsoft.WindowsAzure.ConfigurationManager",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.WindowsAzure.ConfigurationManager 3.2.3 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Package Microsoft.WindowsAzure.ConfigurationManager 3.2.3 supports: net40 (.NETFramework,Version=v4.0)",
+      "libraryId": "Microsoft.WindowsAzure.ConfigurationManager",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.WindowsAzure.ConfigurationManager 3.2.3 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Package Microsoft.WindowsAzure.ConfigurationManager 3.2.3 supports: net40 (.NETFramework,Version=v4.0)",
+      "libraryId": "Microsoft.WindowsAzure.ConfigurationManager",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}

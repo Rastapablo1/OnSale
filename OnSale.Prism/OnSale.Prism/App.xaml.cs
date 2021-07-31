@@ -1,3 +1,4 @@
+using OnSale.Commom.Entities;
 using OnSale.Commom.Services;
 using OnSale.Prism.ViewModels;
 using OnSale.Prism.Views;
@@ -36,7 +37,7 @@ namespace OnSale.Prism
             containerRegistry.RegisterSingleton<IAppInfo, AppInfoImplementation>();
             containerRegistry.Register<IApiService, ApiService>();
             containerRegistry.RegisterForNavigation<NavigationPage>();
-            containerRegistry.RegisterForNavigation<ProductPage, ProductsPageViewModel>();
+            containerRegistry.RegisterForNavigation<Products, ProductsPageViewModel>();
             containerRegistry.RegisterForNavigation<ProductDetailPage, ProductDetailPageViewModel>();
         }
     }

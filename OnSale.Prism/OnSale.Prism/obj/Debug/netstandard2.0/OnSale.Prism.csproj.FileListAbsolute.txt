@@ -5,3 +5,12 @@ F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\Views\Prod
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Prism.AssemblyInfoInputs.cache
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Prism.AssemblyInfo.cs
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Prism.csproj.CoreCompileInputs.cache
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Prism.dll
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Prism.pdb
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\bin\Debug\netstandard2.0\OnSale.Prism.deps.json
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\bin\Debug\netstandard2.0\OnSale.Prism.dll
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\bin\Debug\netstandard2.0\OnSale.Prism.pdb
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\bin\Debug\netstandard2.0\OnSale.Commom.dll
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\bin\Debug\netstandard2.0\OnSale.Commom.pdb
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\XamlC.stamp
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Prism.csproj.CopyComplete

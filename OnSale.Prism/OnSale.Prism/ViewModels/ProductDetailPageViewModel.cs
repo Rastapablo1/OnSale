@@ -25,9 +25,9 @@ namespace OnSale.Prism.ViewModels
             set => SetProperty(ref _product, value);
         }
 
-        public override void OnNavigatedFrom(INavigationParameters parameters)
+        public override void OnNavigatedTo(INavigationParameters parameters)
         {
-            base.OnNavigatedFrom(parameters);
+            base.OnNavigatedTo(parameters);
 
             if (parameters.ContainsKey("product"))
             {

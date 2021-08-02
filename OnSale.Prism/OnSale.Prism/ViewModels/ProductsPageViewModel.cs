@@ -15,7 +15,7 @@ namespace OnSale.Prism.ViewModels
     {
         private readonly INavigationService _navigationService;
         private readonly IApiService _apiService;
-        private ObservableCollection<ProductItemViewModel> _products;
+        private ObservableCollection<ProductItemViewModel> _products; 
         private bool _isRunning;
         private string _search;
         private List<Product> _myProducts;

@@ -1,12 +1,16 @@
 {
   "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "DefaultConnection"
+    },
     "secrets1": {
       "type": "secrets",
       "connectionId": "ASPNETCORE_HOSTINGSTARTUP__KEYVAULT__CONFIGURATIONVAULT"
     },
-    "mssql1": {
+    "mssql2": {
       "type": "mssql",
-      "connectionId": "DefaultConnection"
+      "connectionId": "ConnectionStrings:DefaultConnection"
     }
   }
 }

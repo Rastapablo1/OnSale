@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "X87TvBbBrZ+7WFi73IvxOI2JRRZCNN9TmtNqhtYUFGqtbwHX3wsimjLXZyeSdFexNILyhVbgKLcf3cUBPwKsnQ==",
+  "dgSpecHash": "AlhOHnJVpImuJuGI51nP49CfEg03SFHZA7WZCE7HLGVhWrIv7cUu88jir04MBXxDU8RcgCcsPQRdjZXmjsL2Qg==",
   "success": true,
   "projectFilePath": "F:\\Projects\\OnSale\\OnSale.Web\\OnSale.Web.csproj",
   "expectedPackageFiles": [
@@ -219,8 +219,9 @@
     "C:\\Users\\Rastapablo\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\Rastapablo\\.nuget\\packages\\syncfusion.licensing\\19.2.0.46\\syncfusion.licensing.19.2.0.46.nupkg.sha512",
-    "C:\\Users\\Rastapablo\\.nuget\\packages\\syncfusion.xamarin.core\\19.2.0.46\\syncfusion.xamarin.core.19.2.0.46.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\syncfusion.licensing\\19.2.0.48\\syncfusion.licensing.19.2.0.48.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\syncfusion.xamarin.core\\19.2.0.48\\syncfusion.xamarin.core.19.2.0.48.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\syncfusion.xamarin.sfbusyindicator\\19.2.0.48\\syncfusion.xamarin.sfbusyindicator.19.2.0.48.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\syncfusion.xamarin.sfrotator\\19.2.0.46\\syncfusion.xamarin.sfrotator.19.2.0.46.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",

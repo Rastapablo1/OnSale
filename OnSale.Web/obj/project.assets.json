@@ -3235,7 +3235,7 @@
           }
         }
       },
-      "Syncfusion.Licensing/19.2.0.46": {
+      "Syncfusion.Licensing/19.2.0.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
@@ -3244,10 +3244,10 @@
           "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/19.2.0.46": {
+      "Syncfusion.Xamarin.Core/19.2.0.48": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "19.2.0.46",
+          "Syncfusion.Licensing": "19.2.0.48",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -3255,6 +3255,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfBusyIndicator/19.2.0.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "19.2.0.48",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.SfBusyIndicator.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfBusyIndicator.XForms.dll": {}
         }
       },
       "Syncfusion.Xamarin.SfRotator/19.2.0.46": {
@@ -5053,6 +5066,7 @@
         "dependencies": {
           "Microsoft.WindowsAzure.ConfigurationManager": "3.2.3",
           "Newtonsoft.Json": "13.0.1",
+          "Syncfusion.Xamarin.SfBusyIndicator": "19.2.0.48",
           "Syncfusion.Xamarin.SfRotator": "19.2.0.46",
           "System.ComponentModel.Annotations": "5.0.0",
           "WindowsAzure.Storage": "9.3.3"
@@ -8775,10 +8789,10 @@
         "version.txt"
       ]
     },
-    "Syncfusion.Licensing/19.2.0.46": {
-      "sha512": "B4MyGGqFc4UxrhT0Tdkgz8IGFoyOqx1SxH415F2wzsnP8tlsB+EnbNHvQqFlRlvpI9oyOa1n3lcFq9m8j0xNTw==",
+    "Syncfusion.Licensing/19.2.0.48": {
+      "sha512": "9DpnNCTSxYYB9TbGv3uFr5CzFHm2x+uj8c+hkUwHGnDKYmEmlBx8+dxwIUE9/ePKpEYQgGg4c6TdV39xvBbNpQ==",
       "type": "package",
-      "path": "syncfusion.licensing/19.2.0.46",
+      "path": "syncfusion.licensing/19.2.0.48",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8800,14 +8814,14 @@
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.19.2.0.46.nupkg.sha512",
+        "syncfusion.licensing.19.2.0.48.nupkg.sha512",
         "syncfusion.licensing.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.Core/19.2.0.46": {
-      "sha512": "Y2Yfio/ofeGYsMzbYpjTdy5hLyHjyCsBQZXsr4DeFlm78SoRFiGEAIZq2Ox6DylRO/4F4xsdEwGd0pDQn84Z7g==",
+    "Syncfusion.Xamarin.Core/19.2.0.48": {
+      "sha512": "jmK3GyPbpQDuqyK7/HKHOtcXBtnwlL8Xr8AiD1rSoIAIq2NlYK0emOXxLYqG9jIyo34fYhl4HhiXokReG7+bYw==",
       "type": "package",
-      "path": "syncfusion.xamarin.core/19.2.0.46",
+      "path": "syncfusion.xamarin.core/19.2.0.48",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8835,8 +8849,42 @@
         "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleVisibleIcon.xaml",
         "lib/uap10.0/Syncfusion.Core.XForms.dll",
         "lib/uap10.0/Syncfusion.Core.XForms.xml",
-        "syncfusion.xamarin.core.19.2.0.46.nupkg.sha512",
+        "syncfusion.xamarin.core.19.2.0.48.nupkg.sha512",
         "syncfusion.xamarin.core.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfBusyIndicator/19.2.0.48": {
+      "sha512": "WJDb+5W1F82Z6nUQyH1nl/oj1FbaiMA2JjBg7rV2rKvBZcMS6Q1iPMX37ctQLkt57M5T8pDx04/zx5ERJEoyVw==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfbusyindicator/19.2.0.48",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.xml",
+        "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.XForms.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.XForms.xml",
+        "lib/MonoAndroid90/Syncfusion.SfBusyIndicator.Android.dll",
+        "lib/MonoAndroid90/Syncfusion.SfBusyIndicator.Android.xml",
+        "lib/MonoAndroid90/Syncfusion.SfBusyIndicator.XForms.Android.dll",
+        "lib/MonoAndroid90/Syncfusion.SfBusyIndicator.XForms.dll",
+        "lib/MonoAndroid90/Syncfusion.SfBusyIndicator.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.iOS.xml",
+        "lib/netstandard2.0/Syncfusion.SfBusyIndicator.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfBusyIndicator.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfBusyIndicator.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfBusyIndicator.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.XForms.xml",
+        "syncfusion.xamarin.sfbusyindicator.19.2.0.48.nupkg.sha512",
+        "syncfusion.xamarin.sfbusyindicator.nuspec"
       ]
     },
     "Syncfusion.Xamarin.SfRotator/19.2.0.46": {
@@ -14060,6 +14108,7 @@
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.10",
       "Microsoft.WindowsAzure.ConfigurationManager >= 3.2.3",
       "OnSale.Commom >= 1.0.0",
+      "Syncfusion.Xamarin.SfBusyIndicator >= 19.2.0.48",
       "Syncfusion.Xamarin.SfRotator >= 19.2.0.46",
       "WindowsAzure.Storage >= 9.3.3"
     ]
@@ -14178,6 +14227,10 @@
           "Microsoft.WindowsAzure.ConfigurationManager": {
             "target": "Package",
             "version": "[3.2.3, )"
+          },
+          "Syncfusion.Xamarin.SfBusyIndicator": {
+            "target": "Package",
+            "version": "[19.2.0.48, )"
           },
           "Syncfusion.Xamarin.SfRotator": {
             "target": "Package",

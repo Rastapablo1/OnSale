@@ -1,0 +1,10 @@
+F:\Projects\OnSale\OnSale.Commom\bin\Release\netstandard2.0\OnSale.Commom.deps.json
+F:\Projects\OnSale\OnSale.Commom\bin\Release\netstandard2.0\OnSale.Commom.dll
+F:\Projects\OnSale\OnSale.Commom\bin\Release\netstandard2.0\OnSale.Commom.pdb
+F:\Projects\OnSale\OnSale.Commom\obj\Release\netstandard2.0\OnSale.Commom.csproj.AssemblyReference.cache
+F:\Projects\OnSale\OnSale.Commom\obj\Release\netstandard2.0\OnSale.Commom.AssemblyInfoInputs.cache
+F:\Projects\OnSale\OnSale.Commom\obj\Release\netstandard2.0\OnSale.Commom.AssemblyInfo.cs
+F:\Projects\OnSale\OnSale.Commom\obj\Release\netstandard2.0\OnSale.Commom.csproj.CoreCompileInputs.cache
+F:\Projects\OnSale\OnSale.Commom\obj\Release\netstandard2.0\XamlC.stamp
+F:\Projects\OnSale\OnSale.Commom\obj\Release\netstandard2.0\OnSale.Commom.dll
+F:\Projects\OnSale\OnSale.Commom\obj\Release\netstandard2.0\OnSale.Commom.pdb

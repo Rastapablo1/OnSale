@@ -1,4 +1,3 @@
-using OnSale.Commom.Entities;
 using OnSale.Commom.Services;
 using OnSale.Prism.ViewModels;
 using OnSale.Prism.Views;
@@ -22,9 +21,9 @@ namespace OnSale.Prism
 
         protected override async void OnInitialized()
         {
-            SyncfusionLicenseProvider.RegisterLicense("NDc2OTI1QDMxMzkyZTMyMmUzMGE0a1ExSXY5dmRnWkFoWjZ5bENwckt2RG9vSWhZOHhvVE52N1o2QVNPMkE9");
+            SyncfusionLicenseProvider.RegisterLicense("NDgyOTU2QDMxMzkyZTMyMmUzMG9WWXhJLzlKNkpVdXI2akd2bFZYaDNiZEFKY05IKzAzcEh5QlRwMXBPMzA9");
             InitializeComponent();
-            await NavigationService.NavigateAsync($"NavigationPage/{nameof(ProductPage)}");
+            await NavigationService.NavigateAsync($"NavigationPage/{nameof(ProductsPage)}");
         }   
 
         private object ProductPage()
@@ -35,9 +34,11 @@ namespace OnSale.Prism
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterSingleton<IAppInfo, AppInfoImplementation>();
+
             containerRegistry.Register<IApiService, ApiService>();
+
             containerRegistry.RegisterForNavigation<NavigationPage>();
-            containerRegistry.RegisterForNavigation<Products, ProductsPageViewModel>();
+            containerRegistry.RegisterForNavigation<ProductsPage, ProductsPageViewModel>();
             containerRegistry.RegisterForNavigation<ProductDetailPage, ProductDetailPageViewModel>();
         }
     }

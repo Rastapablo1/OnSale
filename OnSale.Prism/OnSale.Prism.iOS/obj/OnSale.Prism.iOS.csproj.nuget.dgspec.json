@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "Syncfusion.Xamarin.SfBusyIndicator": {
+              "target": "Package",
+              "version": "[19.2.0.48, )"
+            },
             "Syncfusion.Xamarin.SfRotator": {
               "target": "Package",
               "version": "[19.2.0.46, )"
@@ -219,10 +223,6 @@
             "Syncfusion.Xamarin.SfRotator": {
               "target": "Package",
               "version": "[19.2.0.48, )"
-            },
-            "WindowsAzure.Storage": {
-              "target": "Package",
-              "version": "[9.3.3, )"
             },
             "Xamarin.Essentials.Interfaces": {
               "target": "Package",

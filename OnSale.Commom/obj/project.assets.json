@@ -11,15 +11,6 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.WindowsAzure.ConfigurationManager/3.2.3": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Microsoft.WindowsAzure.Configuration.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Microsoft.WindowsAzure.Configuration.dll": {}
-        }
-      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -44,7 +35,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Syncfusion.Licensing/19.2.0.48": {
+      "Syncfusion.Licensing/19.2.0.51": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
@@ -53,10 +44,10 @@
           "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/19.2.0.48": {
+      "Syncfusion.Xamarin.Core/19.2.0.51": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "19.2.0.48",
+          "Syncfusion.Licensing": "19.2.0.51",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -66,10 +57,10 @@
           "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfBusyIndicator/19.2.0.48": {
+      "Syncfusion.Xamarin.SfBusyIndicator/19.2.0.51": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.48",
+          "Syncfusion.Xamarin.Core": "19.2.0.51",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -99,19 +90,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.ComponentModel.Annotations.dll": {}
-        }
-      },
-      "WindowsAzure.Storage/9.3.3": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "10.0.2"
-        },
-        "compile": {
-          "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
       "Xamarin.Forms/4.5.0.617": {
@@ -147,19 +125,6 @@
         "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
         "runtime.json"
-      ]
-    },
-    "Microsoft.WindowsAzure.ConfigurationManager/3.2.3": {
-      "sha512": "pAFC2gHAuubgaw7hqSDuaEVMqip/Z0niCFVpUZ1Hg+HUw4BuMQDZnNXCm+S9SU2zPwaH8l8hXaxDXSQI438gMA==",
-      "type": "package",
-      "path": "microsoft.windowsazure.configurationmanager/3.2.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/Microsoft.WindowsAzure.Configuration.dll",
-        "lib/net40/Microsoft.WindowsAzure.Configuration.xml",
-        "microsoft.windowsazure.configurationmanager.3.2.3.nupkg.sha512",
-        "microsoft.windowsazure.configurationmanager.nuspec"
       ]
     },
     "NETStandard.Library/2.0.3": {
@@ -318,10 +283,10 @@
         "packageIcon.png"
       ]
     },
-    "Syncfusion.Licensing/19.2.0.48": {
-      "sha512": "9DpnNCTSxYYB9TbGv3uFr5CzFHm2x+uj8c+hkUwHGnDKYmEmlBx8+dxwIUE9/ePKpEYQgGg4c6TdV39xvBbNpQ==",
+    "Syncfusion.Licensing/19.2.0.51": {
+      "sha512": "eLgJ3ZHUKCHVi3/rRQ7BTMlJEk/UknRIIv6FsjbYt2kEaADvf50AFd1UDKerGWxaCnDgjIjWKFSzF7DA+sk1Qw==",
       "type": "package",
-      "path": "syncfusion.licensing/19.2.0.48",
+      "path": "syncfusion.licensing/19.2.0.51",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -343,14 +308,14 @@
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.19.2.0.48.nupkg.sha512",
+        "syncfusion.licensing.19.2.0.51.nupkg.sha512",
         "syncfusion.licensing.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.Core/19.2.0.48": {
-      "sha512": "jmK3GyPbpQDuqyK7/HKHOtcXBtnwlL8Xr8AiD1rSoIAIq2NlYK0emOXxLYqG9jIyo34fYhl4HhiXokReG7+bYw==",
+    "Syncfusion.Xamarin.Core/19.2.0.51": {
+      "sha512": "q2hirYPHSRC3TX4cY/gEqjoTWZSstUE/U4NIk8s9LbLsuWZ6/mUPjbQnbM5HqbTHtQbXHRcnQi3hGyE+A1lzvg==",
       "type": "package",
-      "path": "syncfusion.xamarin.core/19.2.0.48",
+      "path": "syncfusion.xamarin.core/19.2.0.51",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -378,14 +343,14 @@
         "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleVisibleIcon.xaml",
         "lib/uap10.0/Syncfusion.Core.XForms.dll",
         "lib/uap10.0/Syncfusion.Core.XForms.xml",
-        "syncfusion.xamarin.core.19.2.0.48.nupkg.sha512",
+        "syncfusion.xamarin.core.19.2.0.51.nupkg.sha512",
         "syncfusion.xamarin.core.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.SfBusyIndicator/19.2.0.48": {
-      "sha512": "WJDb+5W1F82Z6nUQyH1nl/oj1FbaiMA2JjBg7rV2rKvBZcMS6Q1iPMX37ctQLkt57M5T8pDx04/zx5ERJEoyVw==",
+    "Syncfusion.Xamarin.SfBusyIndicator/19.2.0.51": {
+      "sha512": "0Pf+RzR47sqYuqR47hSTqsLGQ39NCRnHRN0FN0IqGXeePzBpnoon3JQerZHqqXgo18ZJhf7m4ZUCgTlgOgWWmg==",
       "type": "package",
-      "path": "syncfusion.xamarin.sfbusyindicator/19.2.0.48",
+      "path": "syncfusion.xamarin.sfbusyindicator/19.2.0.51",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -412,7 +377,7 @@
         "lib/uap10.0/Syncfusion.SfBusyIndicator.XForms.UWP.dll",
         "lib/uap10.0/Syncfusion.SfBusyIndicator.XForms.dll",
         "lib/uap10.0/Syncfusion.SfBusyIndicator.XForms.xml",
-        "syncfusion.xamarin.sfbusyindicator.19.2.0.48.nupkg.sha512",
+        "syncfusion.xamarin.sfbusyindicator.19.2.0.51.nupkg.sha512",
         "syncfusion.xamarin.sfbusyindicator.nuspec"
       ]
     },
@@ -538,30 +503,6 @@
         "system.componentmodel.annotations.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "WindowsAzure.Storage/9.3.3": {
-      "sha512": "VUV8j6dzkU/7vDgk5k+ob5g7nnch2fNByr0p9aOxMGFGk+tAnTehrZ4qnClF04CVozP1GNN2zrnbsxCmr+iZBg==",
-      "type": "package",
-      "path": "windowsazure.storage/9.3.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/Microsoft.WindowsAzure.Storage.dll",
-        "lib/net45/Microsoft.WindowsAzure.Storage.pdb",
-        "lib/net45/Microsoft.WindowsAzure.Storage.xml",
-        "lib/netstandard1.0/Microsoft.WindowsAzure.Storage.dll",
-        "lib/netstandard1.0/Microsoft.WindowsAzure.Storage.pdb",
-        "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll",
-        "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.pdb",
-        "lib/win8/Microsoft.WindowsAzure.Storage.dll",
-        "lib/win8/Microsoft.WindowsAzure.Storage.pdb",
-        "lib/wp8/Microsoft.WindowsAzure.Storage.dll",
-        "lib/wp8/Microsoft.WindowsAzure.Storage.pdb",
-        "lib/wpa/Microsoft.WindowsAzure.Storage.dll",
-        "lib/wpa/Microsoft.WindowsAzure.Storage.pdb",
-        "windowsazure.storage.9.3.3.nupkg.sha512",
-        "windowsazure.storage.nuspec"
       ]
     },
     "Xamarin.Forms/4.5.0.617": {
@@ -879,13 +820,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Microsoft.WindowsAzure.ConfigurationManager >= 3.2.3",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 13.0.1",
-      "Syncfusion.Xamarin.SfBusyIndicator >= 19.2.0.48",
+      "Syncfusion.Xamarin.SfBusyIndicator >= 19.2.0.51",
       "Syncfusion.Xamarin.SfRotator >= 19.2.0.46",
-      "System.ComponentModel.Annotations >= 5.0.0",
-      "WindowsAzure.Storage >= 9.3.3"
+      "System.ComponentModel.Annotations >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -932,10 +871,6 @@
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
         "dependencies": {
-          "Microsoft.WindowsAzure.ConfigurationManager": {
-            "target": "Package",
-            "version": "[3.2.3, )"
-          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
@@ -948,7 +883,7 @@
           },
           "Syncfusion.Xamarin.SfBusyIndicator": {
             "target": "Package",
-            "version": "[19.2.0.48, )"
+            "version": "[19.2.0.51, )"
           },
           "Syncfusion.Xamarin.SfRotator": {
             "target": "Package",
@@ -957,10 +892,6 @@
           "System.ComponentModel.Annotations": {
             "target": "Package",
             "version": "[5.0.0, )"
-          },
-          "WindowsAzure.Storage": {
-            "target": "Package",
-            "version": "[9.3.3, )"
           }
         },
         "imports": [
@@ -976,17 +907,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.WindowsAzure.ConfigurationManager 3.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.WindowsAzure.ConfigurationManager",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

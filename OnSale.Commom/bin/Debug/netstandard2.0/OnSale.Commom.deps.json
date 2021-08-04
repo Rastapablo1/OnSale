@@ -9,26 +9,17 @@
     ".NETStandard,Version=v2.0/": {
       "OnSale.Commom/1.0.0": {
         "dependencies": {
-          "Microsoft.WindowsAzure.ConfigurationManager": "3.2.3",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.1",
+          "Syncfusion.Xamarin.SfBusyIndicator": "19.2.0.51",
           "Syncfusion.Xamarin.SfRotator": "19.2.0.46",
-          "System.ComponentModel.Annotations": "5.0.0",
-          "WindowsAzure.Storage": "9.3.3"
+          "System.ComponentModel.Annotations": "5.0.0"
         },
         "runtime": {
           "OnSale.Commom.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
-      "Microsoft.WindowsAzure.ConfigurationManager/3.2.3": {
-        "runtime": {
-          "lib/net40/Microsoft.WindowsAzure.Configuration.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.2.3.0"
-          }
-        }
-      },
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -42,29 +33,41 @@
           }
         }
       },
-      "Syncfusion.Licensing/19.2.0.46": {
+      "Syncfusion.Licensing/19.2.0.51": {
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Licensing.dll": {
-            "assemblyVersion": "19.2.0.46",
-            "fileVersion": "19.2.0.46"
+            "assemblyVersion": "19.2.0.51",
+            "fileVersion": "19.2.0.51"
           }
         }
       },
-      "Syncfusion.Xamarin.Core/19.2.0.46": {
+      "Syncfusion.Xamarin.Core/19.2.0.51": {
         "dependencies": {
-          "Syncfusion.Licensing": "19.2.0.46",
+          "Syncfusion.Licensing": "19.2.0.51",
           "Xamarin.Forms": "4.5.0.617"
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {
-            "assemblyVersion": "19.2451.0.46",
-            "fileVersion": "19.2451.0.46"
+            "assemblyVersion": "19.2451.0.51",
+            "fileVersion": "19.2451.0.51"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfBusyIndicator/19.2.0.51": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "19.2.0.51",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfBusyIndicator.XForms.dll": {
+            "assemblyVersion": "19.2451.0.51",
+            "fileVersion": "19.2451.0.51"
           }
         }
       },
       "Syncfusion.Xamarin.SfRotator/19.2.0.46": {
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.46",
+          "Syncfusion.Xamarin.Core": "19.2.0.51",
           "Xamarin.Forms": "4.5.0.617"
         },
         "runtime": {
@@ -79,18 +82,6 @@
           "lib/netstandard2.0/System.ComponentModel.Annotations.dll": {
             "assemblyVersion": "4.2.1.0",
             "fileVersion": "4.6.26515.6"
-          }
-        }
-      },
-      "WindowsAzure.Storage/9.3.3": {
-        "dependencies": {
-          "NETStandard.Library": "2.0.3",
-          "Newtonsoft.Json": "13.0.1"
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {
-            "assemblyVersion": "9.3.2.0",
-            "fileVersion": "9.3.2.0"
           }
         }
       },
@@ -125,13 +116,6 @@
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
-    "Microsoft.WindowsAzure.ConfigurationManager/3.2.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pAFC2gHAuubgaw7hqSDuaEVMqip/Z0niCFVpUZ1Hg+HUw4BuMQDZnNXCm+S9SU2zPwaH8l8hXaxDXSQI438gMA==",
-      "path": "microsoft.windowsazure.configurationmanager/3.2.3",
-      "hashPath": "microsoft.windowsazure.configurationmanager.3.2.3.nupkg.sha512"
-    },
     "NETStandard.Library/2.0.3": {
       "type": "package",
       "serviceable": true,
@@ -146,19 +130,26 @@
       "path": "newtonsoft.json/13.0.1",
       "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
-    "Syncfusion.Licensing/19.2.0.46": {
+    "Syncfusion.Licensing/19.2.0.51": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-B4MyGGqFc4UxrhT0Tdkgz8IGFoyOqx1SxH415F2wzsnP8tlsB+EnbNHvQqFlRlvpI9oyOa1n3lcFq9m8j0xNTw==",
-      "path": "syncfusion.licensing/19.2.0.46",
-      "hashPath": "syncfusion.licensing.19.2.0.46.nupkg.sha512"
+      "sha512": "sha512-eLgJ3ZHUKCHVi3/rRQ7BTMlJEk/UknRIIv6FsjbYt2kEaADvf50AFd1UDKerGWxaCnDgjIjWKFSzF7DA+sk1Qw==",
+      "path": "syncfusion.licensing/19.2.0.51",
+      "hashPath": "syncfusion.licensing.19.2.0.51.nupkg.sha512"
     },
-    "Syncfusion.Xamarin.Core/19.2.0.46": {
+    "Syncfusion.Xamarin.Core/19.2.0.51": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Y2Yfio/ofeGYsMzbYpjTdy5hLyHjyCsBQZXsr4DeFlm78SoRFiGEAIZq2Ox6DylRO/4F4xsdEwGd0pDQn84Z7g==",
-      "path": "syncfusion.xamarin.core/19.2.0.46",
-      "hashPath": "syncfusion.xamarin.core.19.2.0.46.nupkg.sha512"
+      "sha512": "sha512-q2hirYPHSRC3TX4cY/gEqjoTWZSstUE/U4NIk8s9LbLsuWZ6/mUPjbQnbM5HqbTHtQbXHRcnQi3hGyE+A1lzvg==",
+      "path": "syncfusion.xamarin.core/19.2.0.51",
+      "hashPath": "syncfusion.xamarin.core.19.2.0.51.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfBusyIndicator/19.2.0.51": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0Pf+RzR47sqYuqR47hSTqsLGQ39NCRnHRN0FN0IqGXeePzBpnoon3JQerZHqqXgo18ZJhf7m4ZUCgTlgOgWWmg==",
+      "path": "syncfusion.xamarin.sfbusyindicator/19.2.0.51",
+      "hashPath": "syncfusion.xamarin.sfbusyindicator.19.2.0.51.nupkg.sha512"
     },
     "Syncfusion.Xamarin.SfRotator/19.2.0.46": {
       "type": "package",
@@ -173,13 +164,6 @@
       "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
       "path": "system.componentmodel.annotations/5.0.0",
       "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
-    },
-    "WindowsAzure.Storage/9.3.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-VUV8j6dzkU/7vDgk5k+ob5g7nnch2fNByr0p9aOxMGFGk+tAnTehrZ4qnClF04CVozP1GNN2zrnbsxCmr+iZBg==",
-      "path": "windowsazure.storage/9.3.3",
-      "hashPath": "windowsazure.storage.9.3.3.nupkg.sha512"
     },
     "Xamarin.Forms/4.5.0.617": {
       "type": "package",

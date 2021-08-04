@@ -5,10 +5,12 @@ F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.Android\bin\Debug\com.companyname.a
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.Android\bin\Debug\com.companyname.appname-Signed.aab
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.Android\bin\Debug\com.companyname.appname-Signed.apk
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.Android\bin\Debug\com.companyname.appname-Signed.apk.idsig
-F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.Android\bin\Debug\OnSale.Prism.dll
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.Android\bin\Debug\OnSale.Commom.dll
-F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.Android\bin\Debug\OnSale.Prism.pdb
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.Android\bin\Debug\OnSale.Prism.dll
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.Android\bin\Debug\OnSale.Commom.pdb
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.Android\bin\Debug\OnSale.Prism.pdb
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.Android\bin\Debug\es\OnSale.Prism.resources.dll
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.Android\bin\Debug\pt\OnSale.Prism.resources.dll
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.Android\obj\Debug\100\MonoAndroid,Version=v10.0.AssemblyAttributes.cs
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.Android\obj\Debug\100\build.props
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism.Android\obj\Debug\100\adb.props

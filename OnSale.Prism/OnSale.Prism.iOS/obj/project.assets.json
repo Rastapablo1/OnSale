@@ -2333,6 +2333,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "OnSale.Commom >= 1.0.0",
       "OnSale.Prism >= 1.0.0",
       "Prism.DryIoc.Forms >= 8.1.97",
       "Xamarin.Essentials.Interfaces >= 1.7.0",
@@ -2372,6 +2373,9 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
+            "F:\\Projects\\OnSale\\OnSale.Commom\\OnSale.Commom.csproj": {
+              "projectPath": "F:\\Projects\\OnSale\\OnSale.Commom\\OnSale.Commom.csproj"
+            },
             "F:\\Projects\\OnSale\\OnSale.Prism\\OnSale.Prism\\OnSale.Prism.csproj": {
               "projectPath": "F:\\Projects\\OnSale\\OnSale.Prism\\OnSale.Prism\\OnSale.Prism.csproj"
             }

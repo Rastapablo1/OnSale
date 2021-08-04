@@ -109,6 +109,9 @@
         "frameworks": {
           "monoandroid10.0": {
             "projectReferences": {
+              "F:\\Projects\\OnSale\\OnSale.Commom\\OnSale.Commom.csproj": {
+                "projectPath": "F:\\Projects\\OnSale\\OnSale.Commom\\OnSale.Commom.csproj"
+              },
               "F:\\Projects\\OnSale\\OnSale.Prism\\OnSale.Prism\\OnSale.Prism.csproj": {
                 "projectPath": "F:\\Projects\\OnSale\\OnSale.Prism\\OnSale.Prism\\OnSale.Prism.csproj"
               }

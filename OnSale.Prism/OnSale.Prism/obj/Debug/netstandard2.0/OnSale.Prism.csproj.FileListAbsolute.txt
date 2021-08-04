@@ -1,9 +1,15 @@
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\bin\Debug\netstandard2.0\OnSale.Prism.deps.json
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\bin\Debug\netstandard2.0\OnSale.Prism.dll
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\bin\Debug\netstandard2.0\OnSale.Prism.pdb
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\bin\Debug\netstandard2.0\es\OnSale.Prism.resources.dll
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\bin\Debug\netstandard2.0\pt\OnSale.Prism.resources.dll
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\bin\Debug\netstandard2.0\OnSale.Commom.dll
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\bin\Debug\netstandard2.0\OnSale.Commom.pdb
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Prism.csproj.AssemblyReference.cache
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Prism.Resources.Resource.resources
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Prism.Resources.Resource.es.resources
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Prism.Resources.Resource.pt.resources
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Prism.csproj.GenerateResource.cache
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\App.xaml.g.cs
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\Views\ProductDetailPage.xaml.g.cs
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\Views\ProductsPage.xaml.g.cs
@@ -11,6 +17,8 @@ F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Pri
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Prism.AssemblyInfo.cs
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Prism.csproj.CoreCompileInputs.cache
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\XamlC.stamp
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\es\OnSale.Prism.resources.dll
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\pt\OnSale.Prism.resources.dll
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Prism.csproj.CopyComplete
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Prism.dll
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\OnSale.Prism.pdb

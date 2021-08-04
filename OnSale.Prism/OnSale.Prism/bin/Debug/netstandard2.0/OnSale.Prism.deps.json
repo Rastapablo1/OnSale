@@ -20,6 +20,14 @@
         },
         "runtime": {
           "OnSale.Prism.dll": {}
+        },
+        "resources": {
+          "es/OnSale.Prism.resources.dll": {
+            "locale": "es"
+          },
+          "pt/OnSale.Prism.resources.dll": {
+            "locale": "pt"
+          }
         }
       },
       "DryIoc.dll/4.7.7": {

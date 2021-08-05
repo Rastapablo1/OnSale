@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FL/jh1rH0UuI2vGO5HyIHtaGDh+8igNnOJlit6i5r5pVoIAXukE0b/nfJcWRKUrURHVquQd46qKFRQbm0GcOGg==",
+  "dgSpecHash": "DyxWHar8ogWIz1nUQfRjRSxX/Kt+u/1DcJfG+4iQv7g5wNY02fydcJF3dHDnV8oxHD+cEJ2jbr78069b2lK1Zw==",
   "success": true,
   "projectFilePath": "F:\\Projects\\OnSale\\OnSale.Prism\\OnSale.Prism.iOS\\OnSale.Prism.iOS.csproj",
   "expectedPackageFiles": [
@@ -17,10 +17,12 @@
     "C:\\Users\\Rastapablo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\xam.plugins.settings\\4.1.0-beta\\xam.plugins.settings.4.1.0-beta.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.essentials.interfaces\\1.7.0\\xamarin.essentials.interfaces.1.7.0.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.ffimageloading.transformations\\2.4.11.982\\xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
   ],
   "logs": []

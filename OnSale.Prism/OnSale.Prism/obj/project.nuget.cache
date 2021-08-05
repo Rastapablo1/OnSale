@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nNhvi/ScVllvFRXrW5PHIwGZn6cff4HK6FPjpUzC3rgmpifnAp0OMx5fNP+n1PDDiG9xqaGCByZrycF1Tlq5DA==",
+  "dgSpecHash": "4EAcGN9v6DBM6XdyHCvxKS3B5pN8cRqLwY1PUi0DcSgLU7nNX8oySDu4MENoEL4iCTAWh8zjKCHMnkBMsmzmQQ==",
   "success": true,
   "projectFilePath": "F:\\Projects\\OnSale\\OnSale.Prism\\OnSale.Prism\\OnSale.Prism.csproj",
   "expectedPackageFiles": [
@@ -26,10 +26,12 @@
     "C:\\Users\\Rastapablo\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\xam.plugins.settings\\4.1.0-beta\\xam.plugins.settings.4.1.0-beta.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.essentials.interfaces\\1.7.0\\xamarin.essentials.interfaces.1.7.0.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.ffimageloading.transformations\\2.4.11.982\\xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
   ],
   "logs": []

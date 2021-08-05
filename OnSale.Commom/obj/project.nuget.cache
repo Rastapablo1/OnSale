@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hIlPQKNDjiniTHfNfyMEF66Jor757+V8q0ONvGyiivZA7GKoedHi7wl9oVIYK0EjjJok3vHlaJmLji7Eq9O8NA==",
+  "dgSpecHash": "wdpALIJl6N+gXXko42ojZuZEq2ncEw1UPZY4CU37NR74p2TwPGQYtD0EpVdedIgl+TIj+u2zddmQh+KJKsJ0eg==",
   "success": true,
   "projectFilePath": "F:\\Projects\\OnSale\\OnSale.Commom\\OnSale.Commom.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\Rastapablo\\.nuget\\packages\\syncfusion.xamarin.sfbusyindicator\\19.2.0.51\\syncfusion.xamarin.sfbusyindicator.19.2.0.51.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\syncfusion.xamarin.sfrotator\\19.2.0.46\\syncfusion.xamarin.sfrotator.19.2.0.46.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\xam.plugins.settings\\4.1.0-beta\\xam.plugins.settings.4.1.0-beta.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.forms\\4.5.0.617\\xamarin.forms.4.5.0.617.nupkg.sha512"
   ],
   "logs": []

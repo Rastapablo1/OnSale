@@ -65,6 +65,10 @@
             "System.ComponentModel.Annotations": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Xam.Plugins.Settings": {
+              "target": "Package",
+              "version": "[4.1.0-beta, )"
             }
           },
           "imports": [
@@ -126,11 +130,23 @@
               "target": "Package",
               "version": "[8.1.97, )"
             },
+            "Syncfusion.Xamarin.Core": {
+              "target": "Package",
+              "version": "[19.2.0.51, )"
+            },
+            "Xam.Plugins.Settings": {
+              "target": "Package",
+              "version": "[4.1.0-beta, )"
+            },
             "Xamarin.Essentials.Interfaces": {
               "target": "Package",
               "version": "[1.7.0, )"
             },
             "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.FFImageLoading.Transformations": {
               "target": "Package",
               "version": "[2.4.11.982, )"
             },
@@ -196,6 +212,10 @@
               "target": "Package",
               "version": "[8.1.97, )"
             },
+            "Syncfusion.Xamarin.Core": {
+              "target": "Package",
+              "version": "[19.2.0.51, )"
+            },
             "Syncfusion.Xamarin.SfBusyIndicator": {
               "target": "Package",
               "version": "[19.2.0.51, )"
@@ -209,6 +229,10 @@
               "version": "[1.7.0, )"
             },
             "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.FFImageLoading.Transformations": {
               "target": "Package",
               "version": "[2.4.11.982, )"
             },

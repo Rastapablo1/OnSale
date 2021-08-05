@@ -255,6 +255,15 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "Xam.Plugins.Settings/4.1.0-beta": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Settings.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Settings.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -303,6 +312,18 @@
           "lib/netstandard1.0/FFImageLoading.Forms.dll": {}
         }
       },
+      "Xamarin.FFImageLoading.Transformations/2.4.11.982": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.11.982"
+        },
+        "compile": {
+          "lib/netstandard1.0/FFImageLoading.Transformations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Transformations.dll": {}
+        }
+      },
       "Xamarin.Forms/5.0.0.2083": {
         "type": "package",
         "compile": {
@@ -327,7 +348,8 @@
           "Newtonsoft.Json": "13.0.1",
           "Syncfusion.Xamarin.SfBusyIndicator": "19.2.0.51",
           "Syncfusion.Xamarin.SfRotator": "19.2.0.46",
-          "System.ComponentModel.Annotations": "5.0.0"
+          "System.ComponentModel.Annotations": "5.0.0",
+          "Xam.Plugins.Settings": "4.1.0-beta"
         },
         "compile": {
           "bin/placeholder/OnSale.Commom.dll": {}
@@ -1428,6 +1450,52 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "Xam.Plugins.Settings/4.1.0-beta": {
+      "sha512": "BpKTyb2kGs8bu0MXThk7GL74df5qToztrDL2jdm6YnkblxVESZEJMbxDqOdVRvfJycujg2cuyqnqjT9DPknU2Q==",
+      "type": "package",
+      "path": "xam.plugins.settings/4.1.0-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid44/Plugin.Settings.dll",
+        "lib/monoandroid44/Plugin.Settings.pdb",
+        "lib/monoandroid44/Plugin.Settings.xml",
+        "lib/net45/Plugin.Settings.dll",
+        "lib/net45/Plugin.Settings.pdb",
+        "lib/net45/Plugin.Settings.xml",
+        "lib/netcoreapp2.0/Plugin.Settings.dll",
+        "lib/netcoreapp2.0/Plugin.Settings.pdb",
+        "lib/netcoreapp2.0/Plugin.Settings.xml",
+        "lib/netstandard1.0/Plugin.Settings.dll",
+        "lib/netstandard1.0/Plugin.Settings.pdb",
+        "lib/netstandard1.0/Plugin.Settings.xml",
+        "lib/netstandard2.0/Plugin.Settings.dll",
+        "lib/netstandard2.0/Plugin.Settings.pdb",
+        "lib/netstandard2.0/Plugin.Settings.xml",
+        "lib/tizen40/Plugin.Settings.dll",
+        "lib/tizen40/Plugin.Settings.pdb",
+        "lib/tizen40/Plugin.Settings.xml",
+        "lib/uap10.0.15063/Plugin.Settings.dll",
+        "lib/uap10.0.15063/Plugin.Settings.pdb",
+        "lib/uap10.0.15063/Plugin.Settings.pri",
+        "lib/uap10.0.15063/Plugin.Settings.xml",
+        "lib/xamarinios10/Plugin.Settings.dll",
+        "lib/xamarinios10/Plugin.Settings.pdb",
+        "lib/xamarinios10/Plugin.Settings.xml",
+        "lib/xamarinmac20/Plugin.Settings.dll",
+        "lib/xamarinmac20/Plugin.Settings.pdb",
+        "lib/xamarinmac20/Plugin.Settings.xml",
+        "lib/xamarintvos10/Plugin.Settings.dll",
+        "lib/xamarintvos10/Plugin.Settings.pdb",
+        "lib/xamarintvos10/Plugin.Settings.xml",
+        "lib/xamarinwatchos10/Plugin.Settings.dll",
+        "lib/xamarinwatchos10/Plugin.Settings.pdb",
+        "lib/xamarinwatchos10/Plugin.Settings.xml",
+        "readme.txt",
+        "xam.plugins.settings.4.1.0-beta.nupkg.sha512",
+        "xam.plugins.settings.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.7.0": {
       "sha512": "xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
       "type": "package",
@@ -1590,6 +1658,42 @@
         "lib/uap/FFImageLoading.Forms.xml",
         "xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
         "xamarin.ffimageloading.forms.nuspec"
+      ]
+    },
+    "Xamarin.FFImageLoading.Transformations/2.4.11.982": {
+      "sha512": "cNG6zhiEBTENAGgIc9lY54YMJ0tg2dJ9+tj8tYgrOEQT8gxlj3OUzzNWZgaQWpcx28y5iIt/qM+Bd6jUwtAn1Q==",
+      "type": "package",
+      "path": "xamarin.ffimageloading.transformations/2.4.11.982",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/FFImageLoading.Transformations.dll",
+        "lib/MonoAndroid10/FFImageLoading.Transformations.pdb",
+        "lib/MonoAndroid10/FFImageLoading.Transformations.xml",
+        "lib/Xamarin.Mac20/FFImageLoading.Transformations.dll",
+        "lib/Xamarin.Mac20/FFImageLoading.Transformations.pdb",
+        "lib/Xamarin.Mac20/FFImageLoading.Transformations.xml",
+        "lib/Xamarin.iOS10/FFImageLoading.Transformations.dll",
+        "lib/Xamarin.iOS10/FFImageLoading.Transformations.pdb",
+        "lib/Xamarin.iOS10/FFImageLoading.Transformations.xml",
+        "lib/netstandard1.0/FFImageLoading.Transformations.dll",
+        "lib/netstandard1.0/FFImageLoading.Transformations.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Transformations.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Transformations.xml",
+        "lib/tizen40/FFImageLoading.Transformations.dll",
+        "lib/tizen40/FFImageLoading.Transformations.pdb",
+        "lib/tizen40/FFImageLoading.Transformations.xml",
+        "lib/uap/FFImageLoading.Transformations.dll",
+        "lib/uap/FFImageLoading.Transformations.pdb",
+        "lib/uap/FFImageLoading.Transformations.xml",
+        "lib/win81/FFImageLoading.Transformations.dll",
+        "lib/win81/FFImageLoading.Transformations.pdb",
+        "lib/win81/FFImageLoading.Transformations.xml",
+        "lib/wpa81/FFImageLoading.Transformations.dll",
+        "lib/wpa81/FFImageLoading.Transformations.pdb",
+        "lib/wpa81/FFImageLoading.Transformations.xml",
+        "xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
+        "xamarin.ffimageloading.transformations.nuspec"
       ]
     },
     "Xamarin.Forms/5.0.0.2083": {
@@ -1819,10 +1923,12 @@
       "NETStandard.Library >= 2.0.3",
       "OnSale.Commom >= 1.0.0",
       "Prism.DryIoc.Forms >= 8.1.97",
+      "Syncfusion.Xamarin.Core >= 19.2.0.51",
       "Syncfusion.Xamarin.SfBusyIndicator >= 19.2.0.51",
       "Syncfusion.Xamarin.SfRotator >= 19.2.0.48",
       "Xamarin.Essentials.Interfaces >= 1.7.0",
       "Xamarin.FFImageLoading.Forms >= 2.4.11.982",
+      "Xamarin.FFImageLoading.Transformations >= 2.4.11.982",
       "Xamarin.Forms >= 5.0.0.2083"
     ]
   },
@@ -1884,6 +1990,10 @@
             "target": "Package",
             "version": "[8.1.97, )"
           },
+          "Syncfusion.Xamarin.Core": {
+            "target": "Package",
+            "version": "[19.2.0.51, )"
+          },
           "Syncfusion.Xamarin.SfBusyIndicator": {
             "target": "Package",
             "version": "[19.2.0.51, )"
@@ -1897,6 +2007,10 @@
             "version": "[1.7.0, )"
           },
           "Xamarin.FFImageLoading.Forms": {
+            "target": "Package",
+            "version": "[2.4.11.982, )"
+          },
+          "Xamarin.FFImageLoading.Transformations": {
             "target": "Package",
             "version": "[2.4.11.982, )"
           },

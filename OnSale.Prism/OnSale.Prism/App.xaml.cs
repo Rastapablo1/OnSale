@@ -23,7 +23,7 @@ namespace OnSale.Prism
         {
             SyncfusionLicenseProvider.RegisterLicense("NDgyOTU2QDMxMzkyZTMyMmUzMG9WWXhJLzlKNkpVdXI2akd2bFZYaDNiZEFKY05IKzAzcEh5QlRwMXBPMzA9");
             InitializeComponent();
-            await NavigationService.NavigateAsync($"NavigationPage/{nameof(ProductsPage)}");
+            await NavigationService.NavigateAsync($"{nameof(OnSaleMasterDetailPage)}/NavigationPage/{nameof(ProductsPage)}");
         }   
 
         private object ProductPage()
@@ -38,6 +38,10 @@ namespace OnSale.Prism
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<ProductsPage, ProductsPageViewModel>();
             containerRegistry.RegisterForNavigation<ProductDetailPage, ProductDetailPageViewModel>();
+            containerRegistry.RegisterForNavigation<LoginPage, LoginPageViewModel>();
+            containerRegistry.RegisterForNavigation<OnSaleMasterDetailPage, OnSaleMasterDetailPageViewModel>();
+            containerRegistry.RegisterForNavigation<ShowCarPage, ShowCarPageViewModel>();
+            containerRegistry.RegisterForNavigation<ModifyUserPage, ModifyUserPageViewModel>();
         }
     }
 }

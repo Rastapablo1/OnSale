@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1x/q2WsG5LmWsn2BwqzqwLW2cFp4hUQagV2CQ2p87Jo4UtO+pOxBcybz9RUuPHq8t3KhNMa9Y0MAgs+KAFSHEg==",
+  "dgSpecHash": "raUNfJ98Ptkrp6hrsK4DUdzKAmfFfKuDOVAYI8IMNJ2jwV7lX4CFbqBYhHkunloe91jQa+ZR8hiE6WcqT516fQ==",
   "success": true,
   "projectFilePath": "F:\\Projects\\OnSale\\OnSale.Web\\OnSale.Web.csproj",
   "expectedPackageFiles": [
@@ -322,6 +322,7 @@
     "C:\\Users\\Rastapablo\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rastapablo\\.nuget\\packages\\windowsazure.storage\\9.3.3\\windowsazure.storage.9.3.3.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\xam.plugins.settings\\4.1.0-beta\\xam.plugins.settings.4.1.0-beta.nupkg.sha512",
     "C:\\Users\\Rastapablo\\.nuget\\packages\\xamarin.forms\\4.5.0.617\\xamarin.forms.4.5.0.617.nupkg.sha512"
   ],

@@ -199,6 +199,10 @@
             "Syncfusion.Xamarin.SfRotator": {
               "target": "Package",
               "version": "[19.2.0.46, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
             }
           },
           "imports": [

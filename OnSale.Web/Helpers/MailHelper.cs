@@ -4,8 +4,6 @@ using MimeKit;
 using Onsale.Web.Helpers;
 using OnSale.Commom.Responses;
 using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace OnSale.Web.Helpers
 {
@@ -57,11 +55,6 @@ namespace OnSale.Web.Helpers
                     Result = ex
                 };
             }
-        }
-
-        Commom.Responses.Response IMailHelper.SendMail(string to, string subject, string body)
-        {
-            throw new NotImplementedException();
-        }
+        }       
     }
 }

@@ -32,7 +32,9 @@ namespace OnSale.Commom.Requests
         [Required]
         public int CityId { get; set; }
 
-        public byte[] ImageArray { get; set; }
+        public byte[] ImageArray { get; set; }       
+        
+        public string PasswordConfirm { get; set; }
     }
 
 }

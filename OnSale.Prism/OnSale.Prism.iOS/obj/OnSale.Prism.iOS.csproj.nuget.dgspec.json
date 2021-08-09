@@ -130,6 +130,14 @@
               "target": "Package",
               "version": "[8.1.97, )"
             },
+            "Syncfusion.Xamarin.SfRating": {
+              "target": "Package",
+              "version": "[19.2.0.51, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Xamarin.Essentials.Interfaces": {
               "target": "Package",
               "version": "[1.7.0, )"
@@ -223,9 +231,17 @@
               "target": "Package",
               "version": "[19.2.0.51, )"
             },
+            "Syncfusion.Xamarin.SfRating": {
+              "target": "Package",
+              "version": "[19.2.0.51, )"
+            },
             "Syncfusion.Xamarin.SfRotator": {
               "target": "Package",
               "version": "[19.2.0.48, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             },
             "Xamarin.Essentials.Interfaces": {
               "target": "Package",

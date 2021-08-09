@@ -2,11 +2,16 @@ FFImageLoading.Forms.Platform.dll
 FFImageLoading.Platform.dll
 FFImageLoading.Transformations.dll
 FormsViewGroup.dll
+Plugin.CurrentActivity.dll
+Plugin.Media.dll
+Plugin.Permissions.dll
 Plugin.Settings.dll
 Prism.Forms.dll
 Syncfusion.Core.XForms.Android.dll
 Syncfusion.SfBusyIndicator.Android.dll
 Syncfusion.SfBusyIndicator.XForms.Android.dll
+Syncfusion.SfRating.Android.dll
+Syncfusion.SfRating.XForms.Android.dll
 Syncfusion.SfRotator.Android.dll
 Syncfusion.SfRotator.XForms.Android.dll
 Xamarin.AndroidX.Activity.dll

@@ -1,13 +1,22 @@
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\css\site.css
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\css\site.min.css
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\favicon.ico
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\arros-rico-arroba.png
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\Arroz-Macareno arrobas.jpg
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\Arroz-Macareno.jpg
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\arroz-oso-quintal.jpg
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\arroz_osito_arroba.jpg
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\azucar-arrobas.jpg
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\azucar.jpg
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\banner1.svg
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\banner2.svg
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\banner3.svg
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\bidon cosinero.jpg
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\descarga.jpg
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\descarga1.jpg
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\gopher_head-min.png
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\keywords.png
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\la-favorita-original.jpg
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\noimage.png
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\unnamed.jpg
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\js\deleteDialog.js
@@ -76,6 +85,7 @@ F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.Asp
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.Azure.KeyVault.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.Azure.KeyVault.WebKey.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.Azure.Services.AppAuthentication.dll
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.CodeAnalysis.Workspaces.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.DotNet.PlatformAbstractions.dll
@@ -99,7 +109,6 @@ F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.Vis
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.WindowsAzure.Configuration.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\MimeKit.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Newtonsoft.Json.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\NuGet.Frameworks.dll
@@ -107,6 +116,7 @@ F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\BouncyCastle.
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Remotion.Linq.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Syncfusion.Licensing.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Syncfusion.Core.XForms.dll
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Syncfusion.SfBusyIndicator.XForms.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Syncfusion.SfRotator.XForms.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Composition.AttributedModel.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Composition.Convention.dll
@@ -118,7 +128,11 @@ F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Intera
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.IO.Pipelines.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Runtime.CompilerServices.Unsafe.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Security.Principal.Windows.dll
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Text.Encodings.Web.dll
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Text.Json.dll
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Vereyon.Web.FlashMessage.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Microsoft.WindowsAzure.Storage.dll
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Plugin.Settings.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Xamarin.Forms.Core.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Xamarin.Forms.Platform.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Xamarin.Forms.Xaml.dll

@@ -42,9 +42,10 @@
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.BrowserLink": "2.1.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.10",
-          "Microsoft.WindowsAzure.ConfigurationManager": "3.2.3",
           "OnSale.Commom": "1.0.0",
+          "Syncfusion.Xamarin.SfBusyIndicator": "19.2.0.51",
           "Syncfusion.Xamarin.SfRotator": "19.2.0.46",
+          "Vereyon.Web.FlashMessage": "2.0.0",
           "WindowsAzure.Storage": "9.3.3"
         },
         "runtime": {
@@ -364,7 +365,7 @@
           "System.IO.Pipelines": "4.5.3",
           "System.Memory": "4.5.2",
           "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
           "System.Security.Principal.Windows": "4.5.1"
         },
         "runtime": {
@@ -405,7 +406,7 @@
           "Microsoft.Net.Http.Headers": "2.1.1",
           "System.Memory": "4.5.2",
           "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
           "System.Security.Cryptography.Cng": "4.5.0",
           "System.Threading.Tasks.Extensions": "4.5.1"
         },
@@ -518,6 +519,17 @@
         },
         "compile": {
           "lib/netstandard1.4/Microsoft.Azure.Services.AppAuthentication.dll": {}
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        },
+        "compile": {
+          "ref/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
@@ -891,17 +903,6 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "Microsoft.WindowsAzure.ConfigurationManager/3.2.3": {
-        "runtime": {
-          "lib/net40/Microsoft.WindowsAzure.Configuration.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.2.3.0"
-          }
-        },
-        "compile": {
-          "lib/net40/Microsoft.WindowsAzure.Configuration.dll": {}
-        }
-      },
       "MimeKit/2.9.1": {
         "dependencies": {
           "Portable.BouncyCastle": "1.8.5",
@@ -1008,35 +1009,50 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
-      "Syncfusion.Licensing/19.2.0.46": {
+      "Syncfusion.Licensing/19.2.0.51": {
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Licensing.dll": {
-            "assemblyVersion": "19.2.0.46",
-            "fileVersion": "19.2.0.46"
+            "assemblyVersion": "19.2.0.51",
+            "fileVersion": "19.2.0.51"
           }
         },
         "compile": {
           "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/19.2.0.46": {
+      "Syncfusion.Xamarin.Core/19.2.0.51": {
         "dependencies": {
-          "Syncfusion.Licensing": "19.2.0.46",
+          "Syncfusion.Licensing": "19.2.0.51",
           "Xamarin.Forms": "4.5.0.617"
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {
-            "assemblyVersion": "19.2451.0.46",
-            "fileVersion": "19.2451.0.46"
+            "assemblyVersion": "19.2451.0.51",
+            "fileVersion": "19.2451.0.51"
           }
         },
         "compile": {
           "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {}
         }
       },
+      "Syncfusion.Xamarin.SfBusyIndicator/19.2.0.51": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "19.2.0.51",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfBusyIndicator.XForms.dll": {
+            "assemblyVersion": "19.2451.0.51",
+            "fileVersion": "19.2451.0.51"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.SfBusyIndicator.XForms.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.SfRotator/19.2.0.46": {
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.46",
+          "Syncfusion.Xamarin.Core": "19.2.0.51",
           "Xamarin.Forms": "4.5.0.617"
         },
         "runtime": {
@@ -1314,11 +1330,11 @@
       },
       "System.Numerics.Vectors/4.5.0": {},
       "System.Reflection.TypeExtensions/4.4.0": {},
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "System.Runtime.CompilerServices.Unsafe/4.6.0": {
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "assemblyVersion": "4.0.4.1",
-            "fileVersion": "4.6.26919.2"
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.700.19.46214"
           }
         },
         "compile": {
@@ -1360,11 +1376,53 @@
           "ref/netstandard2.0/System.Security.Principal.Windows.dll": {}
         }
       },
+      "System.Text.Encodings.Web/4.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        }
+      },
+      "System.Text.Json/4.6.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0",
+          "System.Text.Encodings.Web": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Json.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Text.Json.dll": {}
+        }
+      },
       "System.Threading.Tasks.Extensions/4.5.1": {},
       "System.Threading.ThreadPool/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0",
           "System.Runtime.Handles": "4.3.0"
+        }
+      },
+      "Vereyon.Web.FlashMessage/2.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc": "2.1.3",
+          "System.Text.Json": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Vereyon.Web.FlashMessage.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Vereyon.Web.FlashMessage.dll": {}
         }
       },
       "WindowsAzure.Storage/9.3.3": {
@@ -1380,6 +1438,17 @@
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
+        }
+      },
+      "Xam.Plugins.Settings/4.1.0-beta": {
+        "runtime": {
+          "lib/netcoreapp2.0/Plugin.Settings.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.0/Plugin.Settings.dll": {}
         }
       },
       "Xamarin.Forms/4.5.0.617": {
@@ -1405,11 +1474,11 @@
       },
       "OnSale.Commom/1.0.0": {
         "dependencies": {
-          "Microsoft.WindowsAzure.ConfigurationManager": "3.2.3",
           "Newtonsoft.Json": "13.0.1",
+          "Syncfusion.Xamarin.SfBusyIndicator": "19.2.0.51",
           "Syncfusion.Xamarin.SfRotator": "19.2.0.46",
           "System.ComponentModel.Annotations": "5.0.0",
-          "WindowsAzure.Storage": "9.3.3"
+          "Xam.Plugins.Settings": "4.1.0-beta"
         },
         "runtime": {
           "OnSale.Commom.dll": {}
@@ -1894,7 +1963,7 @@
       },
       "Microsoft.AspNetCore.Html.Abstractions/2.1.1": {
         "dependencies": {
-          "System.Text.Encodings.Web": "4.5.0"
+          "System.Text.Encodings.Web": "4.6.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Html.Abstractions.dll": {}
@@ -1917,7 +1986,7 @@
       "Microsoft.AspNetCore.Http.Abstractions/2.1.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "2.1.1",
-          "System.Text.Encodings.Web": "4.5.0"
+          "System.Text.Encodings.Web": "4.6.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
@@ -2340,7 +2409,7 @@
       "Microsoft.AspNetCore.WebUtilities/2.1.1": {
         "dependencies": {
           "Microsoft.Net.Http.Headers": "2.1.1",
-          "System.Text.Encodings.Web": "4.5.0"
+          "System.Text.Encodings.Web": "4.6.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {}
@@ -2808,7 +2877,7 @@
       "Microsoft.Extensions.Primitives/2.1.1": {
         "dependencies": {
           "System.Memory": "4.5.2",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
@@ -2819,7 +2888,7 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1",
           "Microsoft.Extensions.Options": "2.1.1",
-          "System.Text.Encodings.Web": "4.5.0"
+          "System.Text.Encodings.Web": "4.6.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.WebEncoders.dll": {}
@@ -3859,7 +3928,7 @@
       "System.Text.Encoding.CodePages/4.5.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
         },
         "compile": {
           "ref/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
@@ -3872,12 +3941,6 @@
           "Microsoft.NETCore.Targets": "2.1.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0"
-        },
-        "compileOnly": true
-      },
-      "System.Text.Encodings.Web/4.5.0": {
-        "compile": {
-          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
         },
         "compileOnly": true
       },
@@ -4227,6 +4290,13 @@
       "path": "microsoft.azure.services.appauthentication/1.0.1",
       "hashPath": "microsoft.azure.services.appauthentication.1.0.1.nupkg.sha512"
     },
+    "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
+      "path": "microsoft.bcl.asyncinterfaces/1.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512"
+    },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",
       "serviceable": true,
@@ -4402,13 +4472,6 @@
       "path": "microsoft.win32.primitives/4.3.0",
       "hashPath": "microsoft.win32.primitives.4.3.0.nupkg.sha512"
     },
-    "Microsoft.WindowsAzure.ConfigurationManager/3.2.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pAFC2gHAuubgaw7hqSDuaEVMqip/Z0niCFVpUZ1Hg+HUw4BuMQDZnNXCm+S9SU2zPwaH8l8hXaxDXSQI438gMA==",
-      "path": "microsoft.windowsazure.configurationmanager/3.2.3",
-      "hashPath": "microsoft.windowsazure.configurationmanager.3.2.3.nupkg.sha512"
-    },
     "MimeKit/2.9.1": {
       "type": "package",
       "serviceable": true,
@@ -4528,19 +4591,26 @@
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512"
     },
-    "Syncfusion.Licensing/19.2.0.46": {
+    "Syncfusion.Licensing/19.2.0.51": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-B4MyGGqFc4UxrhT0Tdkgz8IGFoyOqx1SxH415F2wzsnP8tlsB+EnbNHvQqFlRlvpI9oyOa1n3lcFq9m8j0xNTw==",
-      "path": "syncfusion.licensing/19.2.0.46",
-      "hashPath": "syncfusion.licensing.19.2.0.46.nupkg.sha512"
+      "sha512": "sha512-eLgJ3ZHUKCHVi3/rRQ7BTMlJEk/UknRIIv6FsjbYt2kEaADvf50AFd1UDKerGWxaCnDgjIjWKFSzF7DA+sk1Qw==",
+      "path": "syncfusion.licensing/19.2.0.51",
+      "hashPath": "syncfusion.licensing.19.2.0.51.nupkg.sha512"
     },
-    "Syncfusion.Xamarin.Core/19.2.0.46": {
+    "Syncfusion.Xamarin.Core/19.2.0.51": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Y2Yfio/ofeGYsMzbYpjTdy5hLyHjyCsBQZXsr4DeFlm78SoRFiGEAIZq2Ox6DylRO/4F4xsdEwGd0pDQn84Z7g==",
-      "path": "syncfusion.xamarin.core/19.2.0.46",
-      "hashPath": "syncfusion.xamarin.core.19.2.0.46.nupkg.sha512"
+      "sha512": "sha512-q2hirYPHSRC3TX4cY/gEqjoTWZSstUE/U4NIk8s9LbLsuWZ6/mUPjbQnbM5HqbTHtQbXHRcnQi3hGyE+A1lzvg==",
+      "path": "syncfusion.xamarin.core/19.2.0.51",
+      "hashPath": "syncfusion.xamarin.core.19.2.0.51.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfBusyIndicator/19.2.0.51": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0Pf+RzR47sqYuqR47hSTqsLGQ39NCRnHRN0FN0IqGXeePzBpnoon3JQerZHqqXgo18ZJhf7m4ZUCgTlgOgWWmg==",
+      "path": "syncfusion.xamarin.sfbusyindicator/19.2.0.51",
+      "hashPath": "syncfusion.xamarin.sfbusyindicator.19.2.0.51.nupkg.sha512"
     },
     "Syncfusion.Xamarin.SfRotator/19.2.0.46": {
       "type": "package",
@@ -4682,12 +4752,12 @@
       "path": "system.reflection.typeextensions/4.4.0",
       "hashPath": "system.reflection.typeextensions.4.4.0.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+    "System.Runtime.CompilerServices.Unsafe/4.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
-      "path": "system.runtime.compilerservices.unsafe/4.5.2",
-      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+      "sha512": "sha512-HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
+      "path": "system.runtime.compilerservices.unsafe/4.6.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
     },
     "System.Runtime.Serialization.Json/4.0.2": {
       "type": "package",
@@ -4703,6 +4773,20 @@
       "path": "system.security.principal.windows/4.5.1",
       "hashPath": "system.security.principal.windows.4.5.1.nupkg.sha512"
     },
+    "System.Text.Encodings.Web/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BXgFO8Yi7ao7hVA/nklD0Hre1Bbce048ZqryGZVFifGNPuh+2jqF1i/jLJLMfFGZIzUOw+nCIeH24SQhghDSPw==",
+      "path": "system.text.encodings.web/4.6.0",
+      "hashPath": "system.text.encodings.web.4.6.0.nupkg.sha512"
+    },
+    "System.Text.Json/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4F8Xe+JIkVoDJ8hDAZ7HqLkjctN/6WItJIzQaifBwClC7wmoLSda/Sv2i6i1kycqDb3hWF4JCVbpAweyOKHEUA==",
+      "path": "system.text.json/4.6.0",
+      "hashPath": "system.text.json.4.6.0.nupkg.sha512"
+    },
     "System.Threading.Tasks.Extensions/4.5.1": {
       "type": "package",
       "serviceable": true,
@@ -4717,12 +4801,26 @@
       "path": "system.threading.threadpool/4.3.0",
       "hashPath": "system.threading.threadpool.4.3.0.nupkg.sha512"
     },
+    "Vereyon.Web.FlashMessage/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EAexV+gONozk1OuIyT+v9pWMoOpn15m467+J2Gg/snNpykahJH2M5qgLOKveFtcdZuCaJiBYfF4xnZX5H1riZg==",
+      "path": "vereyon.web.flashmessage/2.0.0",
+      "hashPath": "vereyon.web.flashmessage.2.0.0.nupkg.sha512"
+    },
     "WindowsAzure.Storage/9.3.3": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-VUV8j6dzkU/7vDgk5k+ob5g7nnch2fNByr0p9aOxMGFGk+tAnTehrZ4qnClF04CVozP1GNN2zrnbsxCmr+iZBg==",
       "path": "windowsazure.storage/9.3.3",
       "hashPath": "windowsazure.storage.9.3.3.nupkg.sha512"
+    },
+    "Xam.Plugins.Settings/4.1.0-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BpKTyb2kGs8bu0MXThk7GL74df5qToztrDL2jdm6YnkblxVESZEJMbxDqOdVRvfJycujg2cuyqnqjT9DPknU2Q==",
+      "path": "xam.plugins.settings/4.1.0-beta",
+      "hashPath": "xam.plugins.settings.4.1.0-beta.nupkg.sha512"
     },
     "Xamarin.Forms/4.5.0.617": {
       "type": "package",
@@ -6191,13 +6289,6 @@
       "sha512": "sha512-YVMK0Bt/A43RmwizJoZ22ei2nmrhobgeiYwFzC4YAN+nue8RF6djXDMog0UCn+brerQoYVyaS+ghy9P/MUVcmw==",
       "path": "system.text.encoding.extensions/4.3.0",
       "hashPath": "system.text.encoding.extensions.4.3.0.nupkg.sha512"
-    },
-    "System.Text.Encodings.Web/4.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
-      "path": "system.text.encodings.web/4.5.0",
-      "hashPath": "system.text.encodings.web.4.5.0.nupkg.sha512"
     },
     "System.Text.RegularExpressions/4.3.0": {
       "type": "package",

@@ -8,6 +8,8 @@ namespace OnSale.Commom.Responses
 
         public DateTime Date { get; set; }
 
+        public DateTime DateLocal => Date.ToLocalTime();
+
         public float Score { get; set; }
 
         public string Remarks { get; set; }

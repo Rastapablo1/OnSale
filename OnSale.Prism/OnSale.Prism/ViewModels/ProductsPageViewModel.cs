@@ -88,7 +88,8 @@ namespace OnSale.Prism.ViewModels
                     IsStarred = p.IsStarred,
                     Name = p.Name,
                     Price = p.Price,
-                    ProductImages = p.ProductImages
+                    ProductImages = p.ProductImages,
+                    Qualifications = p.Qualifications
                 })
                     .ToList());
             }
@@ -103,7 +104,8 @@ namespace OnSale.Prism.ViewModels
                     IsStarred = p.IsStarred,
                     Name = p.Name,
                     Price = p.Price,
-                    ProductImages = p.ProductImages
+                    ProductImages = p.ProductImages,
+                    Qualifications = p.Qualifications
                 })
                     .Where(p => p.Name.ToLower().Contains(Search.ToLower()))
                     .ToList());

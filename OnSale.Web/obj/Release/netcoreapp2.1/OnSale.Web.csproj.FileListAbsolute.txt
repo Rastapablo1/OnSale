@@ -20,12 +20,10 @@ F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\XamlC.stamp
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\OnSale.Web.TagHelpers.input.cache
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\OnSale.Web.TagHelpers.output.cache
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\OnSale.Web.RazorCoreGenerate.cache
-F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\ChangePassword.cshtml.g.cs
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\ChangeUser.cshtml.g.cs
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\NotAuthorized.cshtml.g.cs
-F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\RecoverPassword.cshtml.g.cs
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\_User.cshtml.g.cs
@@ -70,3 +68,7 @@ F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\OnSale.Web.csproj.CopyCo
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\OnSale.Web.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\OnSale.Web.pdb
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\OnSale.Web.genruntimeconfig.cache
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\ChangePasswordMVC.cshtml.g.cs
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\Create.cshtml.g.cs
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\Index.cshtml.g.cs
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\RecoverPasswordMVC.cshtml.g.cs

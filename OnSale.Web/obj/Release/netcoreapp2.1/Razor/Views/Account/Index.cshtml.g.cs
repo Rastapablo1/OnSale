@@ -64,7 +64,7 @@ using OnSale.Web.Models;
             WriteLiteral("\r\n<link rel=\"stylesheet\" href=\"https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css\" />\r\n<br />\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(214, 101, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "498077d0b23544a598093598cfe7c4bc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cdfa61f6944843339ef44e2b7c4e3f8b", async() => {
                 BeginContext(261, 50, true);
                 WriteLiteral("<i class=\"glyphicon glyphicon-plus\"></i> New Admin");
                 EndContext();

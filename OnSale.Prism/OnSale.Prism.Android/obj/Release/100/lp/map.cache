@@ -104,3 +104,11 @@ androidx.legacy.legacy-support-v4.aar
 androidx.browser.browser.aar
 FFImageLoading.Transformations.dll
 Plugin.Settings.dll
+Plugin.CurrentActivity.dll
+Plugin.Media.dll
+Plugin.Permissions.dll
+Syncfusion.SfMaskedEdit.XForms.Android.dll
+Syncfusion.SfNumericTextBox.Android.dll
+Syncfusion.SfNumericTextBox.XForms.Android.dll
+Syncfusion.SfRating.Android.dll
+Syncfusion.SfRating.XForms.Android.dll

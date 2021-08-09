@@ -72,3 +72,6 @@ F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\Chan
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\Create.cshtml.g.cs
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\Index.cshtml.g.cs
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Account\RecoverPasswordMVC.cshtml.g.cs
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Orders\Details.cshtml.g.cs
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Orders\Edit.cshtml.g.cs
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\Razor\Views\Orders\Index.cshtml.g.cs

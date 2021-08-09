@@ -114,6 +114,7 @@ F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Newtonsoft.Js
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\NuGet.Frameworks.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\BouncyCastle.Crypto.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Remotion.Linq.dll
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Stripe.net.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Syncfusion.Licensing.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Syncfusion.Core.XForms.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Syncfusion.SfBusyIndicator.XForms.dll
@@ -123,10 +124,12 @@ F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Compos
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Composition.Hosting.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Composition.Runtime.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Composition.TypedParts.dll
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Configuration.ConfigurationManager.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Diagnostics.DiagnosticSource.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Interactive.Async.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.IO.Pipelines.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Runtime.CompilerServices.Unsafe.dll
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Security.Principal.Windows.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Text.Encodings.Web.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\System.Text.Json.dll
@@ -136,6 +139,7 @@ F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Plugin.Settin
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Xamarin.Forms.Core.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Xamarin.Forms.Platform.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\Xamarin.Forms.Xaml.dll
+F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\runtimes\unix\lib\netcoreapp2.0\System.Security.Principal.Windows.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\runtimes\win\lib\netcoreapp2.0\System.Security.Principal.Windows.dll
 F:\Projects\OnSale\OnSale.Web\obj\Release\netcoreapp2.1\PubTmp\Out\OnSale.Commom.dll

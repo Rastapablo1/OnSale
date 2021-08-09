@@ -10,6 +10,9 @@ Prism.Forms.dll
 Syncfusion.Core.XForms.Android.dll
 Syncfusion.SfBusyIndicator.Android.dll
 Syncfusion.SfBusyIndicator.XForms.Android.dll
+Syncfusion.SfMaskedEdit.XForms.Android.dll
+Syncfusion.SfNumericTextBox.Android.dll
+Syncfusion.SfNumericTextBox.XForms.Android.dll
 Syncfusion.SfRating.Android.dll
 Syncfusion.SfRating.XForms.Android.dll
 Syncfusion.SfRotator.Android.dll

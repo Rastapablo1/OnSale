@@ -14,6 +14,18 @@
           "lib/netstandard2.0/DryIoc.dll": {}
         }
       },
+      "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -61,6 +73,20 @@
           "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
+      "Stripe.net/39.62.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "Newtonsoft.Json": "11.0.1",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Stripe.net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Stripe.net.dll": {}
+        }
+      },
       "Syncfusion.Licensing/19.2.0.51": {
         "type": "package",
         "compile": {
@@ -100,6 +126,38 @@
           "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.XForms.dll": {},
           "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.XForms.iOS.dll": {},
           "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfMaskedEdit/19.2.0.51": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "19.2.0.51",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfNumericTextBox/19.2.0.51": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "19.2.0.51",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {}
         }
       },
       "Syncfusion.Xamarin.SfRating/19.2.0.51": {
@@ -145,6 +203,18 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Permissions": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -155,6 +225,60 @@
         }
       },
       "System.Reflection.Emit.Lightweight/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Security.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
         "type": "package",
         "compile": {
           "ref/xamarinios10/_._": {}
@@ -394,6 +518,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
+          "Stripe.net": "39.62.0",
           "Syncfusion.Xamarin.SfBusyIndicator": "19.2.0.51",
           "Syncfusion.Xamarin.SfRotator": "19.2.0.46",
           "System.ComponentModel.Annotations": "5.0.0",
@@ -414,6 +539,8 @@
           "Prism.DryIoc.Forms": "8.1.97",
           "Syncfusion.Xamarin.Core": "19.2.0.51",
           "Syncfusion.Xamarin.SfBusyIndicator": "19.2.0.51",
+          "Syncfusion.Xamarin.SfMaskedEdit": "19.2.0.51",
+          "Syncfusion.Xamarin.SfNumericTextBox": "19.2.0.51",
           "Syncfusion.Xamarin.SfRating": "19.2.0.51",
           "Syncfusion.Xamarin.SfRotator": "19.2.0.48",
           "Xam.Plugin.Media": "5.0.1",
@@ -443,6 +570,18 @@
           "lib/netstandard2.0/DryIoc.dll": {}
         }
       },
+      "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -490,6 +629,20 @@
           "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
+      "Stripe.net/39.62.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "Newtonsoft.Json": "11.0.1",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Stripe.net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Stripe.net.dll": {}
+        }
+      },
       "Syncfusion.Licensing/19.2.0.51": {
         "type": "package",
         "compile": {
@@ -529,6 +682,38 @@
           "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.XForms.dll": {},
           "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.XForms.iOS.dll": {},
           "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfMaskedEdit/19.2.0.51": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "19.2.0.51",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfNumericTextBox/19.2.0.51": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "19.2.0.51",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {}
         }
       },
       "Syncfusion.Xamarin.SfRating/19.2.0.51": {
@@ -574,6 +759,18 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Permissions": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -584,6 +781,48 @@
         }
       },
       "System.Reflection.Emit.Lightweight/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll": {}
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Security.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
         "type": "package",
         "compile": {
           "ref/xamarinios10/_._": {}
@@ -823,6 +1062,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
+          "Stripe.net": "39.62.0",
           "Syncfusion.Xamarin.SfBusyIndicator": "19.2.0.51",
           "Syncfusion.Xamarin.SfRotator": "19.2.0.46",
           "System.ComponentModel.Annotations": "5.0.0",
@@ -843,6 +1083,8 @@
           "Prism.DryIoc.Forms": "8.1.97",
           "Syncfusion.Xamarin.Core": "19.2.0.51",
           "Syncfusion.Xamarin.SfBusyIndicator": "19.2.0.51",
+          "Syncfusion.Xamarin.SfMaskedEdit": "19.2.0.51",
+          "Syncfusion.Xamarin.SfNumericTextBox": "19.2.0.51",
           "Syncfusion.Xamarin.SfRating": "19.2.0.51",
           "Syncfusion.Xamarin.SfRotator": "19.2.0.48",
           "Xam.Plugin.Media": "5.0.1",
@@ -872,6 +1114,18 @@
           "lib/netstandard2.0/DryIoc.dll": {}
         }
       },
+      "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -919,6 +1173,20 @@
           "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
+      "Stripe.net/39.62.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "Newtonsoft.Json": "11.0.1",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Stripe.net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Stripe.net.dll": {}
+        }
+      },
       "Syncfusion.Licensing/19.2.0.51": {
         "type": "package",
         "compile": {
@@ -958,6 +1226,38 @@
           "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.XForms.dll": {},
           "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.XForms.iOS.dll": {},
           "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfMaskedEdit/19.2.0.51": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "19.2.0.51",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfNumericTextBox/19.2.0.51": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "19.2.0.51",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {}
         }
       },
       "Syncfusion.Xamarin.SfRating/19.2.0.51": {
@@ -1003,6 +1303,18 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Permissions": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -1013,6 +1325,48 @@
         }
       },
       "System.Reflection.Emit.Lightweight/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Security.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
         "type": "package",
         "compile": {
           "ref/xamarinios10/_._": {}
@@ -1252,6 +1606,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
+          "Stripe.net": "39.62.0",
           "Syncfusion.Xamarin.SfBusyIndicator": "19.2.0.51",
           "Syncfusion.Xamarin.SfRotator": "19.2.0.46",
           "System.ComponentModel.Annotations": "5.0.0",
@@ -1272,6 +1627,8 @@
           "Prism.DryIoc.Forms": "8.1.97",
           "Syncfusion.Xamarin.Core": "19.2.0.51",
           "Syncfusion.Xamarin.SfBusyIndicator": "19.2.0.51",
+          "Syncfusion.Xamarin.SfMaskedEdit": "19.2.0.51",
+          "Syncfusion.Xamarin.SfNumericTextBox": "19.2.0.51",
           "Syncfusion.Xamarin.SfRating": "19.2.0.51",
           "Syncfusion.Xamarin.SfRotator": "19.2.0.48",
           "Xam.Plugin.Media": "5.0.1",
@@ -1301,6 +1658,18 @@
           "lib/netstandard2.0/DryIoc.dll": {}
         }
       },
+      "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -1348,6 +1717,20 @@
           "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
+      "Stripe.net/39.62.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "Newtonsoft.Json": "11.0.1",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Stripe.net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Stripe.net.dll": {}
+        }
+      },
       "Syncfusion.Licensing/19.2.0.51": {
         "type": "package",
         "compile": {
@@ -1387,6 +1770,38 @@
           "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.XForms.dll": {},
           "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.XForms.iOS.dll": {},
           "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfMaskedEdit/19.2.0.51": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "19.2.0.51",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfNumericTextBox/19.2.0.51": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "19.2.0.51",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {}
         }
       },
       "Syncfusion.Xamarin.SfRating/19.2.0.51": {
@@ -1432,6 +1847,18 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Permissions": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -1442,6 +1869,48 @@
         }
       },
       "System.Reflection.Emit.Lightweight/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Security.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
         "type": "package",
         "compile": {
           "ref/xamarinios10/_._": {}
@@ -1681,6 +2150,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
+          "Stripe.net": "39.62.0",
           "Syncfusion.Xamarin.SfBusyIndicator": "19.2.0.51",
           "Syncfusion.Xamarin.SfRotator": "19.2.0.46",
           "System.ComponentModel.Annotations": "5.0.0",
@@ -1701,6 +2171,8 @@
           "Prism.DryIoc.Forms": "8.1.97",
           "Syncfusion.Xamarin.Core": "19.2.0.51",
           "Syncfusion.Xamarin.SfBusyIndicator": "19.2.0.51",
+          "Syncfusion.Xamarin.SfMaskedEdit": "19.2.0.51",
+          "Syncfusion.Xamarin.SfNumericTextBox": "19.2.0.51",
           "Syncfusion.Xamarin.SfRating": "19.2.0.51",
           "Syncfusion.Xamarin.SfRotator": "19.2.0.48",
           "Xam.Plugin.Media": "5.0.1",
@@ -1748,6 +2220,30 @@
         "lib/portable-net45+win8+wp8+wpa81/DryIoc.dll",
         "lib/portable-net45+win8+wp8+wpa81/DryIoc.xml",
         "readme.txt"
+      ]
+    },
+    "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+      "sha512": "1Am6l4Vpn3/K32daEqZI+FFr96OlZkgwK2LcT3pZ2zWubR5zTPW3/FkO1Rat9kb7oQOa4rxgl9LJHc5tspCWfg==",
+      "type": "package",
+      "path": "microsoft.bcl.asyncinterfaces/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
+        "microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.nuspec",
+        "ref/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "ref/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Newtonsoft.Json/13.0.1": {
@@ -1841,6 +2337,28 @@
         "prism.forms.8.1.97.nupkg.sha512",
         "prism.forms.nuspec",
         "readme.txt"
+      ]
+    },
+    "Stripe.net/39.62.0": {
+      "sha512": "I+iDZ940aIM+WofK0HPmHRgHqAaatGt7fc7lBOh82G3gH7+Fo3n7zlu9wpcRirT2dn+ePkY5q+SSxoVD6B1YbA==",
+      "type": "package",
+      "path": "stripe.net/39.62.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/net461/Stripe.net.dll",
+        "lib/net461/Stripe.net.pdb",
+        "lib/net461/Stripe.net.xml",
+        "lib/net5.0/Stripe.net.dll",
+        "lib/net5.0/Stripe.net.pdb",
+        "lib/net5.0/Stripe.net.xml",
+        "lib/netstandard2.0/Stripe.net.dll",
+        "lib/netstandard2.0/Stripe.net.pdb",
+        "lib/netstandard2.0/Stripe.net.xml",
+        "stripe.net.39.62.0.nupkg.sha512",
+        "stripe.net.nuspec"
       ]
     },
     "Syncfusion.Licensing/19.2.0.51": {
@@ -1939,6 +2457,68 @@
         "lib/uap10.0/Syncfusion.SfBusyIndicator.XForms.xml",
         "syncfusion.xamarin.sfbusyindicator.19.2.0.51.nupkg.sha512",
         "syncfusion.xamarin.sfbusyindicator.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfMaskedEdit/19.2.0.51": {
+      "sha512": "Kh+YKe8rwdN1wEHRk3kYIwqeeM65d0vCrM4hidmxiPH0J8x6AO9HUTrkfkpMdOhBWIIbRFTdfHAvsG4nIvWfkg==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfmaskededit/19.2.0.51",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Syncfusion.SfMaskedEdit.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfMaskedEdit.XForms.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfMaskedEdit.XForms.xml",
+        "lib/MonoAndroid90/Syncfusion.SfMaskedEdit.XForms.Android.dll",
+        "lib/MonoAndroid90/Syncfusion.SfMaskedEdit.XForms.dll",
+        "lib/MonoAndroid90/Syncfusion.SfMaskedEdit.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.SfMaskedEdit.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfMaskedEdit.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfMaskedEdit.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfMaskedEdit.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfMaskedEdit.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfMaskedEdit.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfMaskedEdit.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfMaskedEdit.XForms.xml",
+        "syncfusion.xamarin.sfmaskededit.19.2.0.51.nupkg.sha512",
+        "syncfusion.xamarin.sfmaskededit.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfNumericTextBox/19.2.0.51": {
+      "sha512": "RdiK9HjE81JIjgzlk9TgT4K++i14TshkBntYNsgiF8SaskHdwxlSZw8wJMC9IFsq/pvjza8412ZUxDCwGbNfCQ==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfnumerictextbox/19.2.0.51",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Syncfusion.SfNumericTextBox.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfNumericTextBox.Android.xml",
+        "lib/MonoAndroid10.0/Syncfusion.SfNumericTextBox.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfNumericTextBox.XForms.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfNumericTextBox.XForms.xml",
+        "lib/MonoAndroid90/Syncfusion.SfNumericTextBox.Android.dll",
+        "lib/MonoAndroid90/Syncfusion.SfNumericTextBox.Android.xml",
+        "lib/MonoAndroid90/Syncfusion.SfNumericTextBox.XForms.Android.dll",
+        "lib/MonoAndroid90/Syncfusion.SfNumericTextBox.XForms.dll",
+        "lib/MonoAndroid90/Syncfusion.SfNumericTextBox.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.XML",
+        "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll",
+        "lib/netstandard2.0/Syncfusion.SfNumericTextBox.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfNumericTextBox.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfNumericTextBox.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfNumericTextBox.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.xml",
+        "syncfusion.xamarin.sfnumerictextbox.19.2.0.51.nupkg.sha512",
+        "syncfusion.xamarin.sfnumerictextbox.nuspec"
       ]
     },
     "Syncfusion.Xamarin.SfRating/19.2.0.51": {
@@ -2098,6 +2678,27 @@
         "version.txt"
       ]
     },
+    "System.Configuration.ConfigurationManager/4.5.0": {
+      "sha512": "UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.xml",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -2188,6 +2789,147 @@
         "runtimes/aot/lib/netcore50/_._",
         "system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
         "system.reflection.emit.lightweight.nuspec"
+      ]
+    },
+    "System.Security.AccessControl/4.5.0": {
+      "sha512": "vW8Eoq0TMyz5vAG/6ce483x/CP83fgm4SJe5P8Tb1tZaobcvPrbMEL7rhH1DRdrYbbb6F0vq3OlzmK0Pkwks5A==",
+      "type": "package",
+      "path": "system.security.accesscontrol/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.accesscontrol.4.5.0.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Permissions/4.5.0": {
+      "sha512": "9gdyuARhUR7H+p5CjyUB/zPk7/Xut3wUSP8NJQB6iZr8L3XUXTMdoLeVAg9N4rqF8oIpE7MpdqHdDHQ7XgJe0g==",
+      "type": "package",
+      "path": "system.security.permissions/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Security.Permissions.dll",
+        "lib/netstandard2.0/System.Security.Permissions.dll",
+        "ref/net461/System.Security.Permissions.dll",
+        "ref/net461/System.Security.Permissions.xml",
+        "ref/netstandard2.0/System.Security.Permissions.dll",
+        "ref/netstandard2.0/System.Security.Permissions.xml",
+        "system.security.permissions.4.5.0.nupkg.sha512",
+        "system.security.permissions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/4.5.0": {
+      "sha512": "U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.4.5.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.2": {
+      "sha512": "BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "WebP.Touch/1.0.8": {
@@ -2723,6 +3465,8 @@
       "OnSale.Commom >= 1.0.0",
       "OnSale.Prism >= 1.0.0",
       "Prism.DryIoc.Forms >= 8.1.97",
+      "Syncfusion.Xamarin.SfMaskedEdit >= 19.2.0.51",
+      "Syncfusion.Xamarin.SfNumericTextBox >= 19.2.0.51",
       "Syncfusion.Xamarin.SfRating >= 19.2.0.51",
       "Xam.Plugin.Media >= 5.0.1",
       "Xamarin.Essentials.Interfaces >= 1.7.0",
@@ -2779,6 +3523,14 @@
           "Prism.DryIoc.Forms": {
             "target": "Package",
             "version": "[8.1.97, )"
+          },
+          "Syncfusion.Xamarin.SfMaskedEdit": {
+            "target": "Package",
+            "version": "[19.2.0.51, )"
+          },
+          "Syncfusion.Xamarin.SfNumericTextBox": {
+            "target": "Package",
+            "version": "[19.2.0.51, )"
           },
           "Syncfusion.Xamarin.SfRating": {
             "target": "Package",

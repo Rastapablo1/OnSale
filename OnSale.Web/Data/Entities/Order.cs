@@ -1,10 +1,8 @@
-﻿using OnSale.Commom.Entities;
-using OnSale.Commom.Enums;
+﻿using OnSale.Commom.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace OnSale.Web.Data.Entities
 {
@@ -20,6 +18,7 @@ namespace OnSale.Web.Data.Entities
 
         public User User { get; set; }
 
+        [Display(Name = "Order Status")]
         public OrderStatus OrderStatus { get; set; }
 
         [DisplayFormat(DataFormatString = "{0:yyyy/MM/dd hh:mm}")]
@@ -46,10 +45,13 @@ namespace OnSale.Web.Data.Entities
 
         public ICollection<OrderDetail> OrderDetails { get; set; }
 
+        [DisplayFormat(DataFormatString = "{0:N0}")]
         public int Lines => OrderDetails == null ? 0 : OrderDetails.Count;
 
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public float Quantity => OrderDetails == null ? 0 : OrderDetails.Sum(od => od.Quantity);
 
+        [DisplayFormat(DataFormatString = "{0:C2}")]
         public decimal Value => OrderDetails == null ? 0 : OrderDetails.Sum(od => od.Value);
     }
 }

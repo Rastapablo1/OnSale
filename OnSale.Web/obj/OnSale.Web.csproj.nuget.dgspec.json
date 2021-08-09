@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.62.0, )"
+            },
             "Syncfusion.Xamarin.SfBusyIndicator": {
               "target": "Package",
               "version": "[19.2.0.51, )"

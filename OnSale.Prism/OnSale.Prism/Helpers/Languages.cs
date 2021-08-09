@@ -192,9 +192,63 @@ namespace OnSale.Prism.Helpers
         public static string Error005 => Resource.Error005;
 
         public static string ChangePassworrdMessage => Resource.ChangePassworrdMessage;
+        public static string Quantity => Resource.Quantity;
 
+        public static string QuantityError => Resource.QuantityError;
 
+        public static string QuantityPlaceHolder => Resource.QuantityPlaceHolder;
 
+        public static string AddToCartMessage => Resource.AddToCartMessage;
+
+        public static string ProductExistInOrder => Resource.ProductExistInOrder;
+
+        public static string Value => Resource.Value;
+
+        public static string FinishOrder => Resource.FinishOrder;
+
+        public static string Yes => Resource.Yes;
+
+        public static string No => Resource.No;
+
+        public static string ClearAllConfirm => Resource.ClearAllConfirm;
+
+        public static string Total => Resource.Total;
+
+        public static string Items => Resource.Items;
+        public static string Delete => Resource.Delete;
+        public static string DeleteProductInOrderConfirm => Resource.DeleteProductInOrderConfirm;
+
+        public static string ModifyOrder => Resource.ModifyOrder;
+        public static string FinishOrderMessage => Resource.FinishOrderMessage;
+
+        public static string PaymentMethod => Resource.PaymentMethod;
+
+        public static string PaymentMethodError => Resource.PaymentMethodError;
+
+        public static string PaymentMethodPlaceHolder => Resource.PaymentMethodPlaceHolder;
+
+        public static string Cash => Resource.Cash;
+
+        public static string CreditCard => Resource.CreditCard;
+
+        public static string DeliveryAddress => Resource.DeliveryAddress;
+
+        public static string DeliveryAddressError => Resource.DeliveryAddressError;
+
+        public static string DeliveryAddressPlaceHolder => Resource.DeliveryAddressPlaceHolder;
+        public static string Expiry => Resource.Expiry;
+
+        public static string ExpiryError => Resource.ExpiryError;
+
+        public static string CreditCardError => Resource.CreditCardError;
+
+        public static string CVV => Resource.CVV;
+
+        public static string CVVError => Resource.CVVError;
+
+        public static string CreditCardNoValid => Resource.CreditCardNoValid;
+
+        public static string PayNoOk => Resource.PayNoOk;
 
     }
 }

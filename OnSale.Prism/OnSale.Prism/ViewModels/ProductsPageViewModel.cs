@@ -1,8 +1,12 @@
-﻿using OnSale.Commom.Entities;
+﻿using Newtonsoft.Json;
+using OnSale.Commom.Entities;
+using OnSale.Commom.Helpers;
+using OnSale.Commom.Models;
 using OnSale.Commom.Responses;
 using OnSale.Commom.Services;
 using OnSale.Prism.Helpers;
 using OnSale.Prism.ItemViewModels;
+using OnSale.Prism.Views;
 using Prism.Commands;
 using Prism.Navigation;
 using System.Collections.Generic;
@@ -20,6 +24,8 @@ namespace OnSale.Prism.ViewModels
         private bool _isRunning;
         private string _search;
         private List<ProductResponse> _myProducts;
+        private int _cartNumber;
+        private DelegateCommand _showCartCommand;
         private DelegateCommand _searchCommand;
 
         public ProductsPageViewModel(INavigationService navigationService, IApiService apiService)
@@ -28,9 +34,18 @@ namespace OnSale.Prism.ViewModels
             _navigationService = navigationService;
             _apiService = apiService;
             Title = Languages.Products;
+            LoadCartNumber();
             LoadProductsAsnyc();
         }
+
+        public DelegateCommand ShowCartCommand => _showCartCommand ?? (_showCartCommand = new DelegateCommand(ShowCartAsync));
         public DelegateCommand SearchCommand => _searchCommand ?? (_searchCommand = new DelegateCommand(ShowProducts));
+
+        public int CartNumber
+        {
+            get => _cartNumber;
+            set => SetProperty(ref _cartNumber, value);
+        }
         public string Search
         {
             get => _search;
@@ -111,6 +126,22 @@ namespace OnSale.Prism.ViewModels
                     .ToList());
             }
 
+        }
+        private void LoadCartNumber()
+        {
+            List<OrderDetail> orderDetails = JsonConvert.DeserializeObject<List<OrderDetail>>(Settings.OrderDetails);
+            if (orderDetails == null)
+            {
+                orderDetails = new List<OrderDetail>();
+                Settings.OrderDetails = JsonConvert.SerializeObject(orderDetails);
+            }
+
+            CartNumber = orderDetails.Count;
+        }
+
+        private async void ShowCartAsync()
+        {
+            await _navigationService.NavigateAsync(nameof(ShowCarPage));
         }
     }
 }

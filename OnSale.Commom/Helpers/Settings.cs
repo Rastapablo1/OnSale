@@ -8,6 +8,7 @@ namespace OnSale.Commom.Helpers
         private const string _token = "token";
         private const string _isLogin = "isLogin";
         private const string _product = "product";
+        private const string _orderDetails = "orderDetails ";
         private static readonly string _stringDefault = string.Empty;
         private static readonly bool _boolDefault = false;
 
@@ -18,7 +19,6 @@ namespace OnSale.Commom.Helpers
             get => AppSettings.GetValueOrDefault(_token, _stringDefault);
             set => AppSettings.AddOrUpdateValue(_token, value);
         }
-
         public static bool IsLogin
         {
             get => AppSettings.GetValueOrDefault(_isLogin, _boolDefault);
@@ -28,6 +28,11 @@ namespace OnSale.Commom.Helpers
         {
             get => AppSettings.GetValueOrDefault(_product, _stringDefault);
             set => AppSettings.AddOrUpdateValue(_product, value);
+        }
+        public static string OrderDetails
+        {
+            get => AppSettings.GetValueOrDefault(_orderDetails, _stringDefault);
+            set => AppSettings.AddOrUpdateValue(_orderDetails, value);
         }
     }
 }

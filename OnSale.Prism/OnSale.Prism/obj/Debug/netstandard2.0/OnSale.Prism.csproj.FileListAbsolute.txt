@@ -33,3 +33,4 @@ F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\Views\Prod
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\Views\AddQualificationPage.xaml.g.cs
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\Views\RegisterPage.xaml.g.cs
 F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\Views\RecoverPasswordPage.xaml.g.cs
+F:\Projects\OnSale\OnSale.Prism\OnSale.Prism\obj\Debug\netstandard2.0\Views\ChangePasswordPage.xaml.g.cs
